@@ -1,0 +1,3 @@
+U:\GitHub\Portsmouth\Portsmouth\Source\Portsmouth\Portsmouth.Build.cs
+U:\GitHub\Portsmouth\Portsmouth\Source\Portsmouth.Target.cs
+U:\GitHub\Portsmouth\Portsmouth\Source\PortsmouthEditor.Target.cs

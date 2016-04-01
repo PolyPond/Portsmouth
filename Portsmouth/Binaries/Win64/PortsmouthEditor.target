@@ -1,0 +1,33 @@
+{
+	"TargetName" : "PortsmouthEditor",
+	"Platform" : "Win64",
+	"Configuration" : "Development",
+	"BuildId" : "",
+	"Version" : 
+	{
+		"MajorVersion" : 4,
+		"MinorVersion" : 11,
+		"PatchVersion" : 0,
+		"Changelist" : 2927265,
+		"IsLicenseeVersion" : 0,
+		"BranchName" : "++UE4+Release-4.11"
+	},
+	"BuildProducts" :
+	[
+		{
+			"Path" : "$(ProjectDir)\\Binaries\\Win64\\UE4Editor-Portsmouth.dll",
+			"Type" : "DynamicLibrary"
+		},
+		{
+			"Path" : "$(ProjectDir)\\Binaries\\Win64\\UE4Editor-Portsmouth.pdb",
+			"Type" : "SymbolFile"
+		},
+		{
+			"Path" : "$(ProjectDir)\\Intermediate\\Build\\Win64\\UE4Editor\\Development\\UE4Editor-Portsmouth.lib",
+			"Type" : "ImportLibrary"
+		}
+	],
+	"RuntimeDependencies" :
+	[
+	]
+}

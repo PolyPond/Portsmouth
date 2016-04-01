@@ -1,0 +1,508 @@
+﻿Log file open, 04/01/16 16:27:02
+LogInit:Display: Running engine for game: Portsmouth
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1104042862) SRandInit(1104042918).
+LogTaskGraph: Started task graph with 4 named threads and 6 total threads.
+LogStats: Stats thread started at 0.130135
+LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+LogInit: Version: 4.11.0-2927265+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Mar 30 2016 02:13:55
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: F:/Program Files/Unreal Engine/4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.04.01-23.27.02:567][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.01-23.27.02:567][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.01-23.27.02:578][  0]LogInit: Computer: LMP-01
+[2016.04.01-23.27.02:578][  0]LogInit: User: Leif
+[2016.04.01-23.27.02:578][  0]LogInit: CPU Page size=65536, Cores=3
+[2016.04.01-23.27.02:578][  0]LogInit: High frequency timer resolution =14.318180 MHz
+[2016.04.01-23.27.02:578][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.04.01-23.27.02:578][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.01-23.27.02:578][  0]LogMemory: Process Physical Memory: 314.48 MB used, 314.48 MB peak
+[2016.04.01-23.27.02:578][  0]LogMemory: Process Virtual Memory: 315.85 MB used, 315.85 MB peak
+[2016.04.01-23.27.02:578][  0]LogMemory: Physical Memory: 8090.81 MB used, 16284.35 MB total
+[2016.04.01-23.27.02:578][  0]LogMemory: Virtual Memory: 649.38 MB used, 134217728.00 MB total
+[2016.04.01-23.27.02:619][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.04.01-23.27.03:179][  0]LogD3D11RHI: D3D11 adapters:
+[2016.04.01-23.27.03:197][  0]LogD3D11RHI:    0. 'AMD Radeon R9 200 Series' (Feature Level 11_0)
+[2016.04.01-23.27.03:197][  0]LogD3D11RHI:       4074MB of dedicated video memory, 0MB of dedicated system memory, and 8142MB of shared system memory, 1 output[s]
+[2016.04.01-23.27.03:203][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.04.01-23.27.03:203][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 8142MB of shared system memory, 0 output[s]
+[2016.04.01-23.27.03:203][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.04.01-23.27.03:214][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.04.01-23.27.03:214][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R9 200 Series
+[2016.04.01-23.27.03:214][  0]LogD3D11RHI:   Driver Version: Catalyst 15.8 (internal 16.150.2111.0)
+[2016.04.01-23.27.03:214][  0]LogD3D11RHI:      Driver Date: 3-14-2016
+[2016.04.01-23.27.03:214][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.04.01-23.27.03:225][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2016.04.01-23.27.03:248][  0]LogShaderCompilers: Guid format shader working directory is 13 characters bigger than the processId version (U:/GitHub/Portsmouth/Portsmouth/Intermediate/Shaders/WorkingDirectory/12700/).
+[2016.04.01-23.27.03:249][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Leif/AppData/Local/Temp/UnrealShaderWorkingDir/9B3D82714374FF9DA88364B3E4CE51A3/'.
+[2016.04.01-23.27.03:249][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.01-23.27.05:259][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.04.01-23.27.05:298][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.01-23.27.05:320][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.01-23.27.05:330][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.01-23.27.05:341][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.01-23.27.05:347][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.01-23.27.05:354][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.01-23.27.05:363][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.01-23.27.05:371][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.01-23.27.05:377][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.01-23.27.05:383][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.01-23.27.05:397][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.04.01-23.27.05:397][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.01-23.27.05:398][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.04.01-23.27.05:422][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.01-23.27.05:426][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.04.01-23.27.05:432][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.01-23.27.05:441][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.01-23.27.05:448][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.01-23.27.05:448][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.01-23.27.05:576][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.01-23.27.05:777][  0]LogDerivedDataCache: Loaded boot cache 0.20s 125MB C:/Users/Leif/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.04.01-23.27.05:777][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Leif/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.04.01-23.27.05:777][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file U:/GitHub/Portsmouth/Portsmouth/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.01-23.27.05:777][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.01-23.27.05:777][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file U:/GitHub/Portsmouth/Portsmouth/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.01-23.27.05:777][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.01-23.27.05:796][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.01-23.27.05:809][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Leif/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.01-23.27.06:032][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.01-23.27.06:034][  0]LogTexture:Display: Building textures: S_Actor (BGRA8)
+[2016.04.01-23.27.06:038][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.04.01-23.27.06:040][  0]LogTexture:Display: Building textures: S_Emitter (BGRA8)
+[2016.04.01-23.27.06:101][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.04.01-23.27.06:787][  0]LogTexture:Display: Building textures: DefaultDiffuse (AutoDXT)
+[2016.04.01-23.27.08:270][  0]LogTexture:Display: Building textures: T_Default_Material_Grid_M (AutoDXT)
+[2016.04.01-23.27.08:616][  0]LogTexture:Display: Building textures: T_Default_Material_Grid_N (BC5)
+[2016.04.01-23.27.08:710][  0]LogTexture:Display: Building textures: DefaultTexture (DXT1)
+[2016.04.01-23.27.08:782][  0]LogTexture:Display: Building textures: S_LevelSequence (BGRA8)
+[2016.04.01-23.27.08:797][  0]LogTexture:Display: Building textures: Bad (BGRA8)
+[2016.04.01-23.27.08:848][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.01-23.27.08:848][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.01-23.27.08:848][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.04.01-23.27.08:931][  0]LogTexture:Display: Building textures: Grid (AutoDXT)
+[2016.04.01-23.27.09:156][  0]LogTexture:Display: Building textures: PSysThumbnail_NoImage (AutoDXT)
+[2016.04.01-23.27.09:173][  0]LogTexture:Display: Building textures: PSysThumbnail_OOD (AutoDXT)
+[2016.04.01-23.27.09:183][  0]LogTexture:Display: Building textures: S_DecalActorIcon (AutoDXT)
+[2016.04.01-23.27.09:269][  0]LogTexture:Display: Building textures: S_Terrain (BGRA8)
+[2016.04.01-23.27.09:640][  0]LogTexture:Display: Building textures: T_EditorHelp (AutoDXT)
+[2016.04.01-23.27.10:870][  0]LogTexture:Display: Building textures: flipbook (AutoDXT)
+[2016.04.01-23.27.10:882][  0]LogTexture:Display: Building textures: S_ExpoHeightFog (BGRA8)
+[2016.04.01-23.27.10:896][  0]LogTexture:Display: Building textures: S_NavP (BGRA8)
+[2016.04.01-23.27.10:911][  0]LogTexture:Display: Building textures: S_Player (BGRA8)
+[2016.04.01-23.27.10:928][  0]LogTexture:Display: Building textures: S_WindDirectional (AutoDXT)
+[2016.04.01-23.27.11:017][  0]LogTexture:Display: Building textures: S_PortalActorIcon2 (AutoDXT)
+[2016.04.01-23.27.11:063][  0]LogTexture:Display: Building textures: MatInstActSprite (BGRA8)
+[2016.04.01-23.27.11:073][  0]LogTexture:Display: Building textures: SceneManager (BGRA8)
+[2016.04.01-23.27.11:090][  0]LogTexture:Display: Building textures: S_Note (BGRA8)
+[2016.04.01-23.27.11:108][  0]LogTexture:Display: Building textures: S_ReflActorIcon (AutoDXT)
+[2016.04.01-23.27.11:158][  0]LogTexture:Display: Building textures: S_Thruster (BGRA8)
+[2016.04.01-23.27.11:169][  0]LogTexture:Display: Building textures: S_RadForce (BGRA8)
+[2016.04.01-23.27.11:181][  0]LogTexture:Display: Building textures: TargetIcon (BGRA8)
+[2016.04.01-23.27.11:204][  0]LogTexture:Display: Building textures: S_TextRenderActorIcon (AutoDXT)
+[2016.04.01-23.27.11:231][  0]LogTexture:Display: Building textures: S_Trigger (BGRA8)
+[2016.04.01-23.27.11:252][  0]LogTexture:Display: Building textures: S_VectorFieldVol (BGRA8)
+[2016.04.01-23.27.11:333][  0]LogUObjectArray: 27672 objects as part of root set at end of initial load.
+[2016.04.01-23.27.11:333][  0]LogUObjectAllocator: 5589896 out of 0 bytes used by permanent object pool.
+[2016.04.01-23.27.11:333][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.04.01-23.27.11:347][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.01-23.27.11:498][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.04.01-23.27.11:498][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.04.01-23.27.11:637][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.04.01-23.27.11:637][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.04.01-23.27.11:637][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.04.01-23.27.11:637][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.04.01-23.27.11:637][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.04.01-23.27.11:637][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.04.01-23.27.12:374][  0]LogTexture:Display: Building textures: DummySpriteTexture (AutoDXT)
+[2016.04.01-23.27.12:480][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.04.01-23.27.14:764][  0]LogAssetRegistry: FAssetRegistry took 0.0221 seconds to start up
+[2016.04.01-23.27.15:055][  0]SourceControl: Info Source control is disabled
+[2016.04.01-23.27.15:113][  0]SourceControl: Info Source control is disabled
+[2016.04.01-23.27.15:133][  0]SourceControl: Info Source control is disabled
+[2016.04.01-23.27.15:150][  0]SourceControl: Info Source control is disabled
+[2016.04.01-23.27.15:534][  0]LogEngine: Initializing Engine...
+[2016.04.01-23.27.15:536][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.04.01-23.27.15:597][  0]LogTexture:Display: Building textures: DefaultWhiteGrid (AutoDXT)
+[2016.04.01-23.27.15:719][  0]LogTexture:Display: Building textures: InvalidLightmapSettings (AutoDXT)
+[2016.04.01-23.27.15:803][  0]LogTexture:Display: Building textures: HeatmapGradient (BGRA8)
+[2016.04.01-23.27.15:819][  0]LogTexture:Display: Building textures: PreviewShadowIndicator (BGRA8)
+[2016.04.01-23.27.15:905][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.04.01-23.27.15:918][  0]LogInit: XAudio2 using '1 - Acer H236HL (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.04.01-23.27.15:938][  0]LogInit: FAudioDevice initialized.
+[2016.04.01-23.27.16:051][  0]LogDerivedDataCache: Saved boot cache 0.11s 126MB C:/Users/Leif/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.04.01-23.27.16:080][  0]LogInit: Texture streaming: Enabled
+[2016.04.01-23.27.16:178][  0]LogInit: Transaction tracking system initialized
+[2016.04.01-23.27.16:230][  0]BlueprintLog: New page: Editor Load
+[2016.04.01-23.27.16:780][  0]LocalizationService: Info Localization service is disabled
+[2016.04.01-23.27.17:075][  0]LogConsoleResponse:Display: 
+[2016.04.01-23.27.17:574][  0]LogFileCache: Scanning file cache for directory 'U:/GitHub/Portsmouth/Portsmouth/Content/' took 0.01s
+[2016.04.01-23.27.17:574][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.04.01-23.27.17:574][  0]LogCook:Display: Mobile HDR setting 1
+[2016.04.01-23.27.17:574][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.04.01-23.27.17:750][  0]SourceControl: Info Source control is disabled
+[2016.04.01-23.27.18:489][  0]LogFactory: FactoryCreateBinary: PackFactory with PackFactory (0 0 F:/Program Files/Unreal Engine/4.11/FeaturePacks/StarterContent.upack)
+[2016.04.01-23.27.19:574][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2016.04.01-23.27.19:688][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2016.04.01-23.27.19:789][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2016.04.01-23.27.19:866][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2016.04.01-23.27.19:911][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2016.04.01-23.27.19:976][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2016.04.01-23.27.20:025][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2016.04.01-23.27.20:086][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2016.04.01-23.27.20:146][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2016.04.01-23.27.20:184][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2016.04.01-23.27.20:239][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2016.04.01-23.27.20:274][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2016.04.01-23.27.20:328][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Audio/Collapse01.uasset"
+[2016.04.01-23.27.20:376][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Audio/Collapse02.uasset"
+[2016.04.01-23.27.20:443][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2016.04.01-23.27.20:494][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Audio/Explosion01.uasset"
+[2016.04.01-23.27.20:544][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Audio/Explosion02.uasset"
+[2016.04.01-23.27.20:600][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2016.04.01-23.27.20:665][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Audio/Fire01.uasset"
+[2016.04.01-23.27.20:753][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2016.04.01-23.27.20:810][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2016.04.01-23.27.20:862][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2016.04.01-23.27.20:919][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Audio/Light01.uasset"
+[2016.04.01-23.27.20:970][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2016.04.01-23.27.21:010][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Audio/Light02.uasset"
+[2016.04.01-23.27.21:055][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2016.04.01-23.27.21:128][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Audio/Smoke01.uasset"
+[2016.04.01-23.27.21:168][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2016.04.01-23.27.21:239][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2016.04.01-23.27.21:303][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2016.04.01-23.27.21:478][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2016.04.01-23.27.21:510][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2016.04.01-23.27.21:572][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2016.04.01-23.27.21:633][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2016.04.01-23.27.21:698][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Audio/Steam01.uasset"
+[2016.04.01-23.27.21:726][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2016.04.01-23.27.21:787][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2016.04.01-23.27.21:830][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2016.04.01-23.27.21:915][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2016.04.01-23.27.21:969][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2016.04.01-23.27.22:036][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2016.04.01-23.27.22:107][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2016.04.01-23.27.22:152][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2016.04.01-23.27.22:180][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2016.04.01-23.27.22:230][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2016.04.01-23.27.22:291][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2016.04.01-23.27.22:333][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2016.04.01-23.27.22:370][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2016.04.01-23.27.22:464][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2016.04.01-23.27.22:515][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2016.04.01-23.27.22:560][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2016.04.01-23.27.22:621][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2016.04.01-23.27.36:379][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2016.04.01-23.27.36:407][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2016.04.01-23.27.36:461][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Maps/Minimal_Default.umap"
+[2016.04.01-23.27.36:679][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Maps/StarterMap.umap"
+[2016.04.01-23.27.36:707][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2016.04.01-23.27.36:756][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2016.04.01-23.27.36:791][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2016.04.01-23.27.36:834][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2016.04.01-23.27.36:862][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2016.04.01-23.27.36:902][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2016.04.01-23.27.36:947][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2016.04.01-23.27.37:013][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2016.04.01-23.27.37:031][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2016.04.01-23.27.37:054][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2016.04.01-23.27.37:088][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2016.04.01-23.27.37:126][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2016.04.01-23.27.37:153][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2016.04.01-23.27.37:208][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2016.04.01-23.27.37:257][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2016.04.01-23.27.37:293][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2016.04.01-23.27.37:327][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2016.04.01-23.27.37:358][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Materials/M_Glass.uasset"
+[2016.04.01-23.27.37:396][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2016.04.01-23.27.37:440][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2016.04.01-23.27.37:469][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2016.04.01-23.27.37:498][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2016.04.01-23.27.37:529][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2016.04.01-23.27.37:558][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2016.04.01-23.27.37:601][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2016.04.01-23.27.37:658][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2016.04.01-23.27.37:701][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2016.04.01-23.27.37:730][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2016.04.01-23.27.37:769][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2016.04.01-23.27.37:842][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2016.04.01-23.27.37:876][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2016.04.01-23.27.37:922][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2016.04.01-23.27.37:954][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2016.04.01-23.27.38:005][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2016.04.01-23.27.38:044][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2016.04.01-23.27.38:085][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2016.04.01-23.27.38:136][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2016.04.01-23.27.38:195][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2016.04.01-23.27.38:229][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2016.04.01-23.27.38:271][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2016.04.01-23.27.38:316][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2016.04.01-23.27.38:352][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2016.04.01-23.27.38:395][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2016.04.01-23.27.38:435][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2016.04.01-23.27.38:467][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Particles/P_Explosion.uasset"
+[2016.04.01-23.27.38:512][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Particles/P_Fire.uasset"
+[2016.04.01-23.27.38:548][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Particles/P_Smoke.uasset"
+[2016.04.01-23.27.38:580][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Particles/P_Sparks.uasset"
+[2016.04.01-23.27.38:612][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2016.04.01-23.27.38:645][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2016.04.01-23.27.38:683][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2016.04.01-23.27.38:707][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2016.04.01-23.27.38:743][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2016.04.01-23.27.38:770][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2016.04.01-23.27.38:810][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2016.04.01-23.27.38:852][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2016.04.01-23.27.38:886][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2016.04.01-23.27.38:926][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2016.04.01-23.27.38:961][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2016.04.01-23.27.39:008][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Props/MaterialSphere.uasset"
+[2016.04.01-23.27.39:063][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Props/SM_Bush.uasset"
+[2016.04.01-23.27.39:111][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Props/SM_Chair.uasset"
+[2016.04.01-23.27.39:137][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2016.04.01-23.27.39:181][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Props/SM_Couch.uasset"
+[2016.04.01-23.27.39:217][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Props/SM_Door.uasset"
+[2016.04.01-23.27.39:256][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2016.04.01-23.27.39:300][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2016.04.01-23.27.39:324][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2016.04.01-23.27.39:360][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2016.04.01-23.27.39:427][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2016.04.01-23.27.39:460][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2016.04.01-23.27.39:505][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2016.04.01-23.27.39:544][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Props/SM_Rock.uasset"
+[2016.04.01-23.27.39:600][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Props/SM_Shelf.uasset"
+[2016.04.01-23.27.39:641][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Props/SM_Stairs.uasset"
+[2016.04.01-23.27.39:685][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Props/SM_Statue.uasset"
+[2016.04.01-23.27.39:745][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Props/SM_TableRound.uasset"
+[2016.04.01-23.27.39:786][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2016.04.01-23.27.39:831][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2016.04.01-23.27.39:885][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2016.04.01-23.27.39:911][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2016.04.01-23.27.39:954][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2016.04.01-23.27.40:011][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2016.04.01-23.27.40:058][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2016.04.01-23.27.40:110][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2016.04.01-23.27.40:146][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2016.04.01-23.27.40:180][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2016.04.01-23.27.40:212][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2016.04.01-23.27.40:264][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2016.04.01-23.27.40:302][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2016.04.01-23.27.40:333][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2016.04.01-23.27.40:359][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2016.04.01-23.27.40:384][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2016.04.01-23.27.40:424][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2016.04.01-23.27.40:456][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2016.04.01-23.27.40:500][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2016.04.01-23.27.40:530][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2016.04.01-23.27.40:554][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2016.04.01-23.27.40:587][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2016.04.01-23.27.40:618][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2016.04.01-23.27.40:653][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2016.04.01-23.27.40:675][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2016.04.01-23.27.40:710][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2016.04.01-23.27.40:745][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2016.04.01-23.27.40:835][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2016.04.01-23.27.40:881][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2016.04.01-23.27.40:914][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2016.04.01-23.27.40:944][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2016.04.01-23.27.41:006][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2016.04.01-23.27.41:133][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2016.04.01-23.27.41:271][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2016.04.01-23.27.41:427][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2016.04.01-23.27.41:528][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2016.04.01-23.27.41:670][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2016.04.01-23.27.41:794][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2016.04.01-23.27.41:974][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2016.04.01-23.27.42:095][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2016.04.01-23.27.42:287][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2016.04.01-23.27.42:396][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2016.04.01-23.27.42:541][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2016.04.01-23.27.42:663][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2016.04.01-23.27.42:783][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2016.04.01-23.27.42:819][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2016.04.01-23.27.42:870][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2016.04.01-23.27.42:916][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2016.04.01-23.27.42:965][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2016.04.01-23.27.43:008][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2016.04.01-23.27.43:092][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2016.04.01-23.27.43:149][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2016.04.01-23.27.43:184][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2016.04.01-23.27.43:348][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2016.04.01-23.27.43:391][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2016.04.01-23.27.43:544][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2016.04.01-23.27.43:611][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2016.04.01-23.27.43:677][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2016.04.01-23.27.43:798][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2016.04.01-23.27.43:885][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2016.04.01-23.27.44:027][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2016.04.01-23.27.44:186][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2016.04.01-23.27.44:337][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2016.04.01-23.27.44:451][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2016.04.01-23.27.44:620][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2016.04.01-23.27.44:758][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2016.04.01-23.27.44:834][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2016.04.01-23.27.44:938][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2016.04.01-23.27.45:042][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2016.04.01-23.27.45:059][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2016.04.01-23.27.45:115][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2016.04.01-23.27.45:142][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Door_M.uasset"
+[2016.04.01-23.27.45:179][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Door_N.uasset"
+[2016.04.01-23.27.45:216][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2016.04.01-23.27.45:286][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2016.04.01-23.27.45:319][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2016.04.01-23.27.45:372][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2016.04.01-23.27.45:429][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2016.04.01-23.27.45:488][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2016.04.01-23.27.45:516][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2016.04.01-23.27.45:671][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2016.04.01-23.27.45:821][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2016.04.01-23.27.45:970][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2016.04.01-23.27.46:083][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2016.04.01-23.27.46:281][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2016.04.01-23.27.46:431][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2016.04.01-23.27.46:477][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2016.04.01-23.27.46:530][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2016.04.01-23.27.46:686][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2016.04.01-23.27.46:840][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2016.04.01-23.27.46:982][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2016.04.01-23.27.47:112][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2016.04.01-23.27.47:188][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2016.04.01-23.27.47:318][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2016.04.01-23.27.47:427][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2016.04.01-23.27.47:493][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2016.04.01-23.27.47:577][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2016.04.01-23.27.47:699][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2016.04.01-23.27.47:755][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2016.04.01-23.27.47:842][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2016.04.01-23.27.47:988][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2016.04.01-23.27.48:115][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2016.04.01-23.27.48:206][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2016.04.01-23.27.48:355][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2016.04.01-23.27.48:480][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2016.04.01-23.27.48:640][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2016.04.01-23.27.48:783][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2016.04.01-23.27.48:942][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2016.04.01-23.27.48:982][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2016.04.01-23.27.49:032][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2016.04.01-23.27.49:058][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2016.04.01-23.27.49:128][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2016.04.01-23.27.49:165][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2016.04.01-23.27.49:204][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2016.04.01-23.27.49:264][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2016.04.01-23.27.49:319][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2016.04.01-23.27.49:364][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2016.04.01-23.27.49:410][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2016.04.01-23.27.49:444][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2016.04.01-23.27.49:482][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2016.04.01-23.27.49:527][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2016.04.01-23.27.49:556][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2016.04.01-23.27.49:868][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2016.04.01-23.27.49:937][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2016.04.01-23.27.49:991][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Water_M.uasset"
+[2016.04.01-23.27.50:053][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Water_N.uasset"
+[2016.04.01-23.27.50:135][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2016.04.01-23.27.50:206][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2016.04.01-23.27.50:262][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2016.04.01-23.27.50:370][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2016.04.01-23.27.50:480][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2016.04.01-23.27.50:619][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2016.04.01-23.27.50:683][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2016.04.01-23.27.50:795][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2016.04.01-23.27.50:862][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2016.04.01-23.27.55:046][  0]LogRenderer: Reallocating scene render targets to support 256x256 (Frame:2).
+[2016.04.01-23.27.59:805][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Architecture/Floor_400x400" FILE="U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Architecture/Floor_400x400.uasset" SILENT=true
+[2016.04.01-23.28.01:005][  0]LogSavePackage: Save=988.50ms
+[2016.04.01-23.28.01:005][  0]LogSavePackage: Moving 'U:/GitHub/Portsmouth/Portsmouth/Saved/Floor_400x400A1537823431DA8684A81088D6A3C4EE7.tmp' to 'U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2016.04.01-23.28.01:096][  0]LogSavePackage: Total save time: 1171.63ms
+[2016.04.01-23.28.01:096][  0]LogSavePackage:Display: Finished SavePackage U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2016.04.01-23.28.01:096][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2016.04.01-23.28.01:100][  0]Cmd: MAP LOAD FILE="U:/GitHub/Portsmouth/Portsmouth/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.01-23.28.01:100][  0]LightingResults: New page: Lighting Build
+[2016.04.01-23.28.01:106][  0]MapCheck: New page: Map Check
+[2016.04.01-23.28.01:106][  0]LightingResults: New page: Lighting Build
+[2016.04.01-23.28.02:040][  0]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2016.04.01-23.28.03:105][  0]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2016.04.01-23.28.04:082][  0]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2016.04.01-23.28.04:149][  0]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2016.04.01-23.28.04:899][  0]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2016.04.01-23.28.05:535][  0]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2016.04.01-23.28.06:285][  0]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2016.04.01-23.28.06:944][  0]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2016.04.01-23.28.07:637][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2016.04.01-23.28.08:156][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2016.04.01-23.28.08:563][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2016.04.01-23.28.08:622][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2016.04.01-23.28.09:024][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2016.04.01-23.28.09:465][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2016.04.01-23.28.09:922][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2016.04.01-23.28.10:362][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
+[2016.04.01-23.28.10:767][  0]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT)
+[2016.04.01-23.28.11:210][  0]LogTexture:Display: Building textures: SkyOcclusion0_6 (AutoDXT)
+[2016.04.01-23.28.11:638][  0]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT)
+[2016.04.01-23.28.11:951][  0]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT)
+[2016.04.01-23.28.12:246][  0]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT)
+[2016.04.01-23.28.12:560][  0]LogTexture:Display: Building textures: SkyOcclusion1_4 (AutoDXT)
+[2016.04.01-23.28.12:859][  0]LogTexture:Display: Building textures: SkyOcclusion1_7 (AutoDXT)
+[2016.04.01-23.28.13:174][  0]LogTexture:Display: Building textures: SkyOcclusion1_8 (AutoDXT)
+[2016.04.01-23.28.13:192][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (G8)
+[2016.04.01-23.28.13:328][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (G8)
+[2016.04.01-23.28.13:462][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (G8)
+[2016.04.01-23.28.13:586][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (G8)
+[2016.04.01-23.28.13:596][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8)
+[2016.04.01-23.28.13:737][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8)
+[2016.04.01-23.28.13:868][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (G8)
+[2016.04.01-23.28.13:997][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (G8)
+[2016.04.01-23.28.14:184][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.04.01-23.28.15:861][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.01-23.28.15:947][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.01-23.28.16:003][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 56.102ms to complete.
+[2016.04.01-23.28.16:003][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 14.904
+[2016.04.01-23.28.18:581][  0]LogCollectionManager: Loaded 0 collections in 0.003594 seconds
+[2016.04.01-23.28.18:806][  0]LogFileCache: Scanning file cache for directory 'U:/GitHub/Portsmouth/Portsmouth/Saved/Collections/' took 0.01s
+[2016.04.01-23.28.18:806][  0]LogFileCache: Scanning file cache for directory 'U:/GitHub/Portsmouth/Portsmouth/Content/Developers/Leif/Collections/' took 0.01s
+[2016.04.01-23.28.18:806][  0]LogFileCache: Scanning file cache for directory 'U:/GitHub/Portsmouth/Portsmouth/Content/Collections/' took 0.01s
+[2016.04.01-23.28.18:806][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
+[2016.04.01-23.28.18:839][  0]LogContentBrowser: Native class hierarchy populated in 0.0313 seconds. Added 1982 classes and 345 folders.
+[2016.04.01-23.28.19:029][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.04.01-23.28.19:030][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.04.01-23.28.19:032][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0019 seconds. Added 12 classes and 0 folders.
+[2016.04.01-23.28.19:102][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0025 seconds. Added 0 classes and 0 folders.
+[2016.04.01-23.28.19:113][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0017 seconds. Added 1 classes and 2 folders.
+[2016.04.01-23.28.19:179][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0024 seconds. Added 0 classes and 0 folders.
+[2016.04.01-23.28.19:323][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0017 seconds. Added 1 classes and 2 folders.
+[2016.04.01-23.28.21:079][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.04.01-23.28.21:747][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.04.01-23.28.21:820][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0019 seconds. Added 1 classes and 2 folders.
+[2016.04.01-23.28.21:821][  0]LogLoad: Full Startup: 80.57 seconds (BP compile: 0.78 seconds)
+[2016.04.01-23.28.21:821][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.04.01-23.28.21:821][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.04.01-23.28.21:858][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.01-23.28.21:858][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.01-23.28.21:860][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.01-23.28.23:139][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.04.01-23.28.23:459][  0]LogTexture:Display: Building textures: icon_tab_Levels_40x (BGRA8)
+[2016.04.01-23.28.23:968][  0]LogTexture:Display: Building textures: LevelGrid1DStripes (BGRA8)
+[2016.04.01-23.28.25:328][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:3).
+[2016.04.01-23.28.26:286][  2]LogAssetRegistry: Asset discovery search completed in 7
