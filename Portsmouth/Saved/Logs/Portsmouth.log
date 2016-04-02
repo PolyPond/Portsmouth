@@ -505,4 +505,1027 @@ LogInit: Object subsystem initialized
 [2016.04.01-23.28.23:459][  0]LogTexture:Display: Building textures: icon_tab_Levels_40x (BGRA8)
 [2016.04.01-23.28.23:968][  0]LogTexture:Display: Building textures: LevelGrid1DStripes (BGRA8)
 [2016.04.01-23.28.25:328][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:3).
-[2016.04.01-23.28.26:286][  2]LogAssetRegistry: Asset discovery search completed in 7
+[2016.04.01-23.28.26:286][  2]LogAssetRegistry: Asset discovery search completed in 71.5441 seconds
+[2016.04.01-23.28.26:286][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2016.04.01-23.28.26:286][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000038 seconds (updated 0 objects)
+[2016.04.01-23.28.26:743][ 25]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/FirstPerson/FPWeapon/Textures/T_FPGun_M.T_FPGun_M. Streaming mips will be recached.
+[2016.04.01-23.28.26:829][ 25]LogTexture:Display: Building textures: T_FPGun_M (AutoDXT)
+[2016.04.01-23.28.27:891][ 25]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01.T_ML_Aluminum01. Streaming mips will be recached.
+[2016.04.01-23.28.28:143][ 25]LogTexture:Display: Building textures: T_ML_Aluminum01 (AutoDXT)
+[2016.04.01-23.28.33:512][ 25]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.T_ML_Rubber_Blue_01_D. Streaming mips will be recached.
+[2016.04.01-23.28.33:808][ 25]LogTexture:Display: Building textures: T_ML_Rubber_Blue_01_D (AutoDXT)
+[2016.04.01-23.28.39:104][ 25]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/FirstPerson/FPWeapon/Textures/T_FPGun_N.T_FPGun_N. Streaming mips will be recached.
+[2016.04.01-23.28.39:277][ 25]LogTexture:Display: Building textures: T_FPGun_N (BC5)
+[2016.04.01-23.28.39:976][ 25]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/FirstPerson/Character/Textures/UE4_Mannequin_MAT_MASKA.UE4_Mannequin_MAT_MASKA. Streaming mips will be recached.
+[2016.04.01-23.28.39:998][ 25]LogTexture:Display: Building textures: UE4_Mannequin_MAT_MASKA (AutoDXT)
+[2016.04.01-23.28.40:163][ 25]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/FirstPerson/Character/Textures/UE4_Mannequin__normals.UE4_Mannequin__normals. Streaming mips will be recached.
+[2016.04.01-23.28.40:401][ 25]LogTexture:Display: Building textures: UE4_Mannequin__normals (BC5)
+[2016.04.01-23.28.41:127][ 25]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01.T_ML_Aluminum01. Streaming mips will be recached.
+[2016.04.01-23.28.41:380][ 25]LogTexture:Display: Building textures: T_ML_Aluminum01 (AutoDXT)
+[2016.04.01-23.28.46:698][ 26]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.T_ML_Rubber_Blue_01_D. Streaming mips will be recached.
+[2016.04.01-23.28.46:995][ 26]LogTexture:Display: Building textures: T_ML_Rubber_Blue_01_D (AutoDXT)
+[2016.04.01-23.38.57:994][191]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.021
+[2016.04.02-01.27.39:973][155]LogLinker:Warning: Can't find file '/Game/Water/lambert1'
+[2016.04.02-01.27.39:973][155]LogLinker:Warning: Can't find file for asset '/Game/Water/lambert1' while loading U:/GitHub/Portsmouth/Portsmouth/Content/Water/SM_Bridge_001.uasset.
+[2016.04.02-01.27.39:977][155]LoadErrors:Error: Error /Game/Water/SM_Bridge_001 : Can't find file for asset. /Game/Water/lambert1
+[2016.04.02-01.27.39:978][155]LogLinker:Warning: Can't find file '/Game/Water/lambert1'
+[2016.04.02-01.27.39:978][155]LogLinker:Warning: Can't find file for asset '/Game/Water/lambert1' while loading U:/GitHub/Portsmouth/Portsmouth/Content/Water/SM_Bridge_001.uasset.
+[2016.04.02-01.27.40:239][155]LogLinker:Warning: Can't find file '/Game/Water/lambert1'
+[2016.04.02-01.27.40:255][155]LoadErrors: Info Failed to load /Game/Water/lambert1.lambert1 Referenced by SM_Bridge_001
+[2016.04.02-01.27.40:256][155]LogLinker:Warning: Can't find file for asset '/Game/Water/lambert1' while loading NULL.
+[2016.04.02-01.27.40:318][155]LogStaticMesh: Building static mesh SM_Bridge_001...
+[2016.04.02-01.27.41:368][155]LogStaticMesh: Built static mesh [1.05s] /Game/Water/SM_Bridge_001.SM_Bridge_001
+[2016.04.02-01.27.41:529][155]LogMaterial: Missing cached shader map for material water, compiling. 
+[2016.04.02-01.27.41:764][155]LogAIModule: Creating AISystem for world portsmouth_test
+[2016.04.02-01.27.42:342][155]Cmd: MAP LOAD FILE="U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Maps/portsmouth_test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.02-01.27.42:343][155]LightingResults: New page: Lighting Build
+[2016.04.02-01.27.42:797][155]LoadErrors: New page: Loading map: portsmouth_test.umap
+[2016.04.02-01.27.43:108][155]MapCheck: New page: Map Check
+[2016.04.02-01.27.43:108][155]LightingResults: New page: Lighting Build
+[2016.04.02-01.27.57:717][155]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.02-01.27.57:772][155]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.02-01.27.57:831][155]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 58.96ms to complete.
+[2016.04.02-01.27.57:831][155]LogFileHelpers: Loading map 'portsmouth_test' took 15.703
+[2016.04.02-01.27.58:033][156]Cmd: UpdateLandscapeEditorData -warnings
+[2016.04.02-01.27.58:335][156]Cmd: UpdateLandscapeEditorData
+[2016.04.02-01.58.02:270][106]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.04.02-01.58.10:828][957]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.04.02-01.58.24:287][133]LogSavePackage: Save=1806.49ms
+[2016.04.02-01.58.24:287][133]LogSavePackage: Moving 'U:/GitHub/Portsmouth/Portsmouth/Saved/portsmouth_test6484B6C84852F70676CA6EA53843B8A0.tmp' to 'U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Maps/portsmouth_test.umap'
+[2016.04.02-01.58.24:291][133]LogSavePackage: Total save time: 1846.29ms
+[2016.04.02-01.58.24:292][133]LogSavePackage:Display: Finished SavePackage U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Maps/portsmouth_test.umap
+[2016.04.02-01.58.46:422][253]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0015 seconds. Added 1 classes and 2 folders.
+[2016.04.02-02.00.39:874][548]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Landscape/color_map" FILE="U:/GitHub/Portsmouth/Portsmouth/Content/Landscape/color_map.uasset" SILENT=true
+[2016.04.02-02.00.40:384][548]LogSavePackage: Save=508.33ms
+[2016.04.02-02.00.40:384][548]LogSavePackage: Moving 'U:/GitHub/Portsmouth/Portsmouth/Saved/color_map6FC6CE6F4A3D5F2AE3AC53AE61416E95.tmp' to 'U:/GitHub/Portsmouth/Portsmouth/Content/Landscape/color_map.uasset'
+[2016.04.02-02.00.40:389][548]LogSavePackage: Total save time: 513.66ms
+[2016.04.02-02.00.40:390][548]LogSavePackage:Display: Finished SavePackage U:/GitHub/Portsmouth/Portsmouth/Content/Landscape/color_map.uasset
+[2016.04.02-02.00.58:884][480]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2016.04.02-02.00.59:452][480]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2016.04.02-02.00.59:460][480]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.02-02.01.02:527][593]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.04.02-02.01.02:527][593]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.04.02-02.01.02:527][593]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.02-02.01.03:086][630]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2016.04.02-02.01.03:096][630]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.02-02.01.03:097][630]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.04.02-02.01.03:132][630]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.04.02-02.01.06:142][783]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.04.02-02.01.06:142][783]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.04.02-02.01.06:142][783]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.02-02.01.26:759][378]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2016.04.02-02.01.26:766][378]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.02-02.01.26:767][378]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_0, compiling. 
+[2016.04.02-02.01.29:445][543]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.04.02-02.01.29:445][543]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.04.02-02.01.29:445][543]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.02-02.01.31:811][711]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2016.04.02-02.01.31:822][711]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.02-02.01.31:905][711]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.04.02-02.01.31:910][711]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_0, compiling. 
+[2016.04.02-02.01.35:456][926]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2016.04.02-02.01.35:470][926]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.02-02.01.35:495][926]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.04.02-02.01.37:840][ 66]LogMaterialEditor: Saving and Compiling material Landscape_Material
+[2016.04.02-02.01.40:392][ 66]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2016.04.02-02.01.40:412][ 66]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.02-02.01.40:460][ 66]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2016.04.02-02.01.40:488][ 66]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2016.04.02-02.01.40:523][ 66]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.02-02.01.45:070][ 66]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Landscape/Landscape_Material" FILE="U:/GitHub/Portsmouth/Portsmouth/Content/Landscape/Landscape_Material.uasset" SILENT=true
+[2016.04.02-02.01.45:092][ 66]LogSavePackage: Save=20.33ms
+[2016.04.02-02.01.45:092][ 66]LogSavePackage: Moving 'U:/GitHub/Portsmouth/Portsmouth/Saved/Landscape_Material6DA68DF84C29C6D703F3C2B75466C8C5.tmp' to 'U:/GitHub/Portsmouth/Portsmouth/Content/Landscape/Landscape_Material.uasset'
+[2016.04.02-02.01.45:094][ 66]LogSavePackage: Total save time: 22.72ms
+[2016.04.02-02.01.45:094][ 66]LogSavePackage:Display: Finished SavePackage U:/GitHub/Portsmouth/Portsmouth/Content/Landscape/Landscape_Material.uasset
+[2016.04.02-02.01.45:101][ 66]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2016.04.02-02.01.45:101][ 66]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.02-02.01.45:101][ 66]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.04.02-02.01.50:707][393]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.04.02-02.01.55:160][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 257 instances, 0 with static permutations.
+[2016.04.02-02.01.55:170][606]LogMaterial:Warning: Material /Game/Landscape/Landscape_Material.Landscape_Material needed to have new flag set bUsedWithLandscape !
+[2016.04.02-02.01.55:189][606]LogMaterial:Warning: Material /Engine/Transient.Landscape_Material needed to have new flag set bUsedWithLandscape !
+[2016.04.02-02.01.55:192][606]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2016.04.02-02.01.55:199][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.02-02.01.55:205][606]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2016.04.02-02.01.55:239][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.02-02.01.55:239][606]LogMaterial:Warning: Material /Game/Landscape/Landscape_Material.Landscape_Material needed to have new flag set bUsedWithStaticLighting !
+[2016.04.02-02.01.55:240][606]LogMaterial:Warning: Material /Engine/Transient.Landscape_Material needed to have new flag set bUsedWithStaticLighting !
+[2016.04.02-02.01.55:244][606]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2016.04.02-02.01.55:257][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.02-02.01.55:261][606]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2016.04.02-02.01.55:343][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.02-02.01.55:344][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:345][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:346][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:347][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:348][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:349][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:350][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:351][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:352][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:352][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:353][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:354][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:356][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:357][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:357][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:359][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:360][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:361][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:362][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:363][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:364][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:365][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:366][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:367][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:368][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:369][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:370][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:372][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:373][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:375][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:376][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:378][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:380][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:381][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:383][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:384][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:386][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:387][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:388][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:390][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:392][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:394][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:396][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:399][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:400][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:401][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:403][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:404][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:406][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:409][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:411][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:413][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:414][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:416][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:417][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:419][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:421][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:422][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:424][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:426][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:428][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:429][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:431][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:433][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:435][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:436][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:438][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:441][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:443][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:445][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:447][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:449][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:451][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:453][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:455][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:457][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:459][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:461][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:463][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:465][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:467][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:469][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:471][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:474][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:476][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:479][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:481][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:483][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:485][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:488][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:490][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:492][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:495][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:497][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:499][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:502][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:505][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:507][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:509][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:512][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:514][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:517][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:519][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:522][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:524][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:529][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:532][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:535][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:537][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:540][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:543][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:546][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:549][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:552][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:554][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:557][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:560][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:563][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:565][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:568][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:571][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:573][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:576][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:580][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:583][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:586][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:589][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:593][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:596][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:599][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:602][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:605][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:608][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:612][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:615][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:618][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:621][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:624][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:627][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:631][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:634][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:637][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:642][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:646][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:649][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:652][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:655][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:659][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:664][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:670][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:671][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:674][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:678][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:682][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:685][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:689][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:693][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:697][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:700][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:703][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:707][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:711][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:715][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:719][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:722][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:727][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:731][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:736][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:740][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:744][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:747][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:751][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:755][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:758][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:763][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:768][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:772][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:776][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:780][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:784][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:787][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:791][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:796][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:801][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:805][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:809][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:813][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:817][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:821][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:825][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:831][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:835][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:840][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:844][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:849][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:853][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:858][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:863][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:868][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:872][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:878][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:883][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:887][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:892][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:896][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:905][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:906][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:911][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:915][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:920][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:924][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:930][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:934][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:939][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:943][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:948][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:953][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:958][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:963][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:969][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:973][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:979][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:983][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:988][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:992][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.55:998][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:004][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:009][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:014][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:018][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:022][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:027][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:032][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:036][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:040][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:045][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:050][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:055][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:061][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:066][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:072][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:077][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:082][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:086][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:091][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:097][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:105][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:108][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:113][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:118][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:123][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:129][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:134][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:140][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:145][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:150][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:168][607]Cmd: UpdateLandscapeEditorData
+[2016.04.02-02.01.56:170][607]Cmd: UpdateLandscapeMIC
+[2016.04.02-02.01.56:200][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:210][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:216][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:220][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:225][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:231][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:235][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:240][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:246][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:251][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:256][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:262][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:267][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:272][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:277][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:283][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:288][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:294][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:299][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:305][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:310][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:316][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:321][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:326][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:332][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:337][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:343][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:349][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:355][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:361][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:367][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:373][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:379][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:384][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:389][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:398][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:403][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:409][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:414][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:420][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:426][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:434][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:439][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:445][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:450][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:455][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:460][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:467][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:471][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:477][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:482][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:486][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:491][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:497][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:502][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:507][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:512][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:517][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:522][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:527][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:533][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:540][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:546][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:552][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:557][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:564][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:569][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:575][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:581][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:586][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:591][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:596][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:601][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:609][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:616][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:620][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:625][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:631][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:635][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:640][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:646][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:651][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:656][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:662][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:667][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:673][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:680][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:685][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:690][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:696][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:701][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:706][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:713][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:719][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:725][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:730][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:735][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:740][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:746][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:751][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:757][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:762][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:767][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:772][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:779][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:784][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:790][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:796][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:801][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:807][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:811][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:818][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:822][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:828][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:833][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:838][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:844][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:851][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:856][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:863][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:868][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:873][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:880][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:885][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:889][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:895][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:900][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:905][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:911][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:916][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:921][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:927][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:933][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:939][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:945][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:951][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:956][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:962][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:968][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:973][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:979][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:984][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:989][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.56:995][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:001][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:006][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:012][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:017][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:022][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:028][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:034][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:042][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:049][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:055][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:063][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:068][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:074][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:080][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:086][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:091][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:098][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:105][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:110][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:117][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:123][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:130][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:136][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:142][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:148][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:153][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:159][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:164][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:168][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:174][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:179][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:184][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:189][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:194][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:200][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:204][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:210][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:216][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:220][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:225][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:231][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:236][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:240][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:246][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:251][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:256][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:261][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:266][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:271][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:276][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:281][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:286][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:291][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:297][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:302][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:307][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:312][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:317][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:322][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:327][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:331][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:336][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:341][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:346][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:350][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:355][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:360][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:365][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:369][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:375][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:380][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:384][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:389][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:394][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:399][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:404][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:409][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:413][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:419][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:423][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:428][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:433][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:438][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:444][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:450][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:456][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:462][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:468][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:473][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:479][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:486][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:491][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:497][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:502][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:507][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:512][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:518][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:523][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:528][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:533][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:538][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:543][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:548][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:553][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:558][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:562][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:567][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:572][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:577][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:581][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:586][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.01.57:591][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-02.02.06:428][133]LogTexture:Display: Building textures: T_1x1_Grid (AutoDXT)
+[2016.04.02-02.02.07:143][133]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.04.02-02.02.07:282][133]LogTexture:Display: Building textures: DebugNumberStrip (AutoDXT)
+[2016.04.02-02.02.07:318][133]LogTexture:Display: Building textures: DebugNumberPeriod (AutoDXT)
+[2016.04.02-02.02.07:360][133]LogMaterial: Uniform references updated for custom material expression TemporalAA SampleID.
+[2016.04.02-02.02.07:631][133]LogTexture:Display: Building textures: CASC_ModuleEnab_2 (DXT1)
+[2016.04.02-02.02.07:785][133]LogMaterial: Uniform references updated for custom material expression Ambient Cubemap Intensity.
+[2016.04.02-02.02.07:791][133]LogMaterial: Uniform references updated for custom material expression Ambient Cubemap Tint.
+[2016.04.02-02.02.10:701][323]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2016.04.02-02.02.10:717][323]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.02-02.02.10:720][323]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2016.04.02-02.02.10:734][323]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.02-02.02.17:290][724]MaterialEditorStats: Info Base pass shader with static lighting: 52 instructions
+[2016.04.02-02.02.17:290][724]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.04.02-02.02.17:290][724]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.02-02.02.17:290][724]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.04.02-02.02.18:670][814]LogMaterialEditor: Saving and Compiling material Landscape_Material
+[2016.04.02-02.02.19:734][814]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2016.04.02-02.02.19:764][814]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.02-02.02.19:814][814]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2016.04.02-02.02.19:902][814]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2016.04.02-02.02.19:978][814]LogMaterial: 0.01 seconds spent updating 1 materials, 1 interfaces, 257 instances, 0 with static permutations.
+[2016.04.02-02.02.51:713][814]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Landscape/Landscape_Material" FILE="U:/GitHub/Portsmouth/Portsmouth/Content/Landscape/Landscape_Material.uasset" SILENT=true
+[2016.04.02-02.02.51:738][814]LogSavePackage: Save=18.20ms
+[2016.04.02-02.02.51:738][814]LogSavePackage: Moving 'U:/GitHub/Portsmouth/Portsmouth/Saved/Landscape_Material3667500447E15C8968F1948A93618290.tmp' to 'U:/GitHub/Portsmouth/Portsmouth/Content/Landscape/Landscape_Material.uasset'
+[2016.04.02-02.02.51:741][814]LogSavePackage: Total save time: 25.96ms
+[2016.04.02-02.02.51:741][814]LogSavePackage:Display: Finished SavePackage U:/GitHub/Portsmouth/Portsmouth/Content/Landscape/Landscape_Material.uasset
+[2016.04.02-02.02.51:753][814]MaterialEditorStats: Info Base pass shader with static lighting: 88 instructions
+[2016.04.02-02.02.51:753][814]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 58 instructions
+[2016.04.02-02.02.51:753][814]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.02-02.02.51:753][814]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.04.02-02.03.34:539][218]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2016.04.02-02.03.34:546][218]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.02-02.03.36:177][331]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2016.04.02-02.03.36:188][331]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.02-02.03.38:659][492]MaterialEditorStats: Info Base pass shader with static lighting: 52 instructions
+[2016.04.02-02.03.38:659][492]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.04.02-02.03.38:659][492]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.02-02.03.38:659][492]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.04.02-02.03.40:295][629]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2016.04.02-02.03.40:303][629]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.02-02.03.42:826][793]MaterialEditorStats: Info Base pass shader with static lighting: 52 instructions
+[2016.04.02-02.03.42:826][793]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.04.02-02.03.42:826][793]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.02-02.03.42:826][793]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.04.02-02.03.52:832][617]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2016.04.02-02.03.52:841][617]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.02-02.03.52:865][617]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_0, compiling. 
+[2016.04.02-02.03.55:298][750]MaterialEditorStats: Info Base pass shader with static lighting: 53 instructions
+[2016.04.02-02.03.55:298][750]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 24 instructions
+[2016.04.02-02.03.55:298][750]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.02-02.03.55:298][750]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.04.02-02.04.02:280][291]LogMaterialEditor: Saving and Compiling material Landscape_Material
+[2016.04.02-02.04.02:969][291]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2016.04.02-02.04.02:989][291]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.02-02.04.03:046][291]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2016.04.02-02.04.03:120][291]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2016.04.02-02.04.03:175][291]LogMaterial: 0.01 seconds spent updating 1 materials, 1 interfaces, 257 instances, 0 with static permutations.
+[2016.04.02-02.04.19:179][291]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Landscape/Landscape_Material" FILE="U:/GitHub/Portsmouth/Portsmouth/Content/Landscape/Landscape_Material.uasset" SILENT=true
+[2016.04.02-02.04.19:198][291]LogSavePackage: Save=16.77ms
+[2016.04.02-02.04.19:198][291]LogSavePackage: Moving 'U:/GitHub/Portsmouth/Portsmouth/Saved/Landscape_MaterialD794C57D4C8108D3265CA0A9F202FA0B.tmp' to 'U:/GitHub/Portsmouth/Portsmouth/Content/Landscape/Landscape_Material.uasset'
+[2016.04.02-02.04.19:200][291]LogSavePackage: Total save time: 19.71ms
+[2016.04.02-02.04.19:200][291]LogSavePackage:Display: Finished SavePackage U:/GitHub/Portsmouth/Portsmouth/Content/Landscape/Landscape_Material.uasset
+[2016.04.02-02.04.19:207][291]MaterialEditorStats: Info Base pass shader with static lighting: 90 instructions
+[2016.04.02-02.04.19:207][291]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2016.04.02-02.04.19:207][291]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.02-02.04.19:207][291]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.04.02-02.04.36:611][902]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.04.02-02.04.38:008][ 25]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.04.02-02.04.38:569][ 67]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.04.02-02.04.39:273][139]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.04.02-02.04.39:769][190]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.04.02-02.04.43:071][553]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.04.02-02.04.43:588][608]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.04.02-02.04.46:835][938]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.04.02-02.04.48:591][ 67]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.04.02-02.04.55:268][650]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.04.02-02.04.57:409][849]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.04.02-02.04.59:781][ 92]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.04.02-02.05.03:953][536]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.04.02-02.05.04:445][592]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.04.02-02.05.16:266][818]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.04.02-02.05.20:573][223]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.04.02-02.05.24:182][611]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.04.02-02.05.26:653][892]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.04.02-02.05.27:895][ 18]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.04.02-02.05.28:701][106]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.04.02-02.05.32:894][551]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.04.02-02.05.34:111][688]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.04.02-02.05.38:994][219]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.04.02-02.05.44:749][872]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.04.02-02.05.45:554][952]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.04.02-02.05.46:403][ 48]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.04.02-02.05.46:994][114]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.04.02-02.06.03:062][760]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.04.02-02.06.15:630][164]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.04.02-02.06.33:413][ 98]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.04.02-02.06.39:939][827]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.04.02-02.06.50:078][928]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.04.02-02.06.54:014][336]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.04.02-02.06.55:892][521]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.04.02-02.06.57:776][698]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.04.02-02.06.58:290][756]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.04.02-02.07.03:288][279]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.04.02-02.07.05:901][542]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.04.02-02.07.08:853][841]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.04.02-02.07.10:544][ 14]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.04.02-02.07.11:447][106]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.04.02-02.07.15:234][486]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.04.02-02.08.08:642][117]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.04.02-02.08.14:260][703]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.04.02-02.08.16:585][900]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.04.02-02.08.56:703][984]LogTexture:Display: Building textures: color_map (AutoDXT)
+[2016.04.02-02.09.00:935][122]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Landscape/color_map" FILE="U:/GitHub/Portsmouth/Portsmouth/Content/Landscape/color_map.uasset" SILENT=true
+[2016.04.02-02.09.01:486][122]LogSavePackage: Save=519.14ms
+[2016.04.02-02.09.01:486][122]LogSavePackage: Moving 'U:/GitHub/Portsmouth/Portsmouth/Saved/color_map9C7CA8B94DA52EBB2C038A83B5585F4D.tmp' to 'U:/GitHub/Portsmouth/Portsmouth/Content/Landscape/color_map.uasset'
+[2016.04.02-02.09.01:491][122]LogSavePackage: Total save time: 554.79ms
+[2016.04.02-02.09.01:491][122]LogSavePackage:Display: Finished SavePackage U:/GitHub/Portsmouth/Portsmouth/Content/Landscape/color_map.uasset
+[2016.04.02-02.09.12:019][921]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2016.04.02-02.09.12:028][921]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.02-02.09.12:053][921]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.04.02-02.09.13:901][ 35]LogMaterialEditor: Saving and Compiling material Landscape_Material
+[2016.04.02-02.09.14:956][ 35]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2016.04.02-02.09.14:985][ 35]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.02-02.09.15:036][ 35]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2016.04.02-02.09.15:110][ 35]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2016.04.02-02.09.15:171][ 35]LogMaterial: 0.01 seconds spent updating 1 materials, 1 interfaces, 257 instances, 0 with static permutations.
+[2016.04.02-02.09.32:311][ 35]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Landscape/Landscape_Material" FILE="U:/GitHub/Portsmouth/Portsmouth/Content/Landscape/Landscape_Material.uasset" SILENT=true
+[2016.04.02-02.09.32:335][ 35]LogSavePackage: Save=17.10ms
+[2016.04.02-02.09.32:335][ 35]LogSavePackage: Moving 'U:/GitHub/Portsmouth/Portsmouth/Saved/Landscape_Material4FEDAEFA470503F752CF6E8CFD4B218F.tmp' to 'U:/GitHub/Portsmouth/Portsmouth/Content/Landscape/Landscape_Material.uasset'
+[2016.04.02-02.09.32:338][ 35]LogSavePackage: Total save time: 25.38ms
+[2016.04.02-02.09.32:338][ 35]LogSavePackage:Display: Finished SavePackage U:/GitHub/Portsmouth/Portsmouth/Content/Landscape/Landscape_Material.uasset
+[2016.04.02-02.09.32:347][ 35]MaterialEditorStats: Info Base pass shader with static lighting: 90 instructions
+[2016.04.02-02.09.32:347][ 35]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2016.04.02-02.09.32:347][ 35]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.02-02.09.32:347][ 35]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.04.02-02.09.34:495][ 36]LogSavePackage: Save=1581.38ms
+[2016.04.02-02.09.34:495][ 36]LogSavePackage: Moving 'U:/GitHub/Portsmouth/Portsmouth/Saved/portsmouth_test_Auto170921DCC4B705E45777720939A30B036.tmp' to 'U:/GitHub/Portsmouth/Portsmouth/Saved/Autosaves/Game/StarterContent/Maps/portsmouth_test_Auto1.umap'
+[2016.04.02-02.09.34:497][ 36]LogSavePackage: Total save time: 1623.74ms
+[2016.04.02-02.09.34:497][ 36]LogSavePackage:Display: Finished SavePackage U:/GitHub/Portsmouth/Portsmouth/Saved/Autosaves/Game/StarterContent/Maps/portsmouth_test_Auto1.umap
+[2016.04.02-02.09.34:498][ 36]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/portsmouth_test' took 2.025
+[2016.04.02-02.09.34:498][ 36]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.025
+[2016.04.02-02.09.59:949][217]LogMaterialEditor: Saving and Compiling material Landscape_Material
+[2016.04.02-02.09.59:974][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Landscape/Landscape_Material" FILE="U:/GitHub/Portsmouth/Portsmouth/Content/Landscape/Landscape_Material.uasset" SILENT=true
+[2016.04.02-02.09.59:983][217]LogSavePackage: Save=7.70ms
+[2016.04.02-02.09.59:983][217]LogSavePackage: Moving 'U:/GitHub/Portsmouth/Portsmouth/Saved/Landscape_Material20CB20D040FA82A0D1FDC4A87314ACE9.tmp' to 'U:/GitHub/Portsmouth/Portsmouth/Content/Landscape/Landscape_Material.uasset'
+[2016.04.02-02.09.59:984][217]LogSavePackage: Total save time: 9.49ms
+[2016.04.02-02.09.59:984][217]LogSavePackage:Display: Finished SavePackage U:/GitHub/Portsmouth/Portsmouth/Content/Landscape/Landscape_Material.uasset
+[2016.04.02-02.10.12:859][124]LogSavePackage: Save=1657.93ms
+[2016.04.02-02.10.12:859][124]LogSavePackage: Moving 'U:/GitHub/Portsmouth/Portsmouth/Saved/portsmouth_testC9C9A8FA41D327EF4592E89DCE978A05.tmp' to 'U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Maps/portsmouth_test.umap'
+[2016.04.02-02.10.12:868][124]LogSavePackage: Total save time: 1667.83ms
+[2016.04.02-02.10.12:868][124]LogSavePackage:Display: Finished SavePackage U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Maps/portsmouth_test.umap
+[2016.04.02-02.10.12:900][124]LogFileHelpers: Saving map 'portsmouth_test' took 1.812
+[2016.04.02-02.11.04:113][615]LogSavePackage: Save=2084.96ms
+[2016.04.02-02.11.04:113][615]LogSavePackage: Moving 'U:/GitHub/Portsmouth/Portsmouth/Saved/portsmouth_testE2A870064219BF5BF9D0999460DD2CED.tmp' to 'U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Maps/portsmouth_test.umap'
+[2016.04.02-02.11.04:118][615]LogSavePackage: Total save time: 2090.81ms
+[2016.04.02-02.11.04:118][615]LogSavePackage:Display: Finished SavePackage U:/GitHub/Portsmouth/Portsmouth/Content/StarterContent/Maps/portsmouth_test.umap
+[2016.04.02-02.11.26:665][869]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/portsmouth_test" FILE="U:/GitHub/Portsmouth/Portsmouth/Content/Maps/portsmouth_test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.04.02-02.11.28:254][869]LogSavePackage: Save=1569.38ms
+[2016.04.02-02.11.28:254][869]LogSavePackage: Moving 'U:/GitHub/Portsmouth/Portsmouth/Saved/portsmouth_test83EC00684F48A0BC2FCE05810B52B6D1.tmp' to 'U:/GitHub/Portsmouth/Portsmouth/Content/Maps/portsmouth_test.umap'
+[2016.04.02-02.11.28:257][869]LogSavePackage: Total save time: 1572.53ms
+[2016.04.02-02.11.28:257][869]LogSavePackage:Display: Finished SavePackage U:/GitHub/Portsmouth/Portsmouth/Content/Maps/portsmouth_test.umap
+[2016.04.02-02.11.28:280][869]LogFileHelpers: Saving map 'portsmouth_test' took 1.687
+[2016.04.02-02.11.38:729][387]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/portsmouth_test" FILE="U:/GitHub/Portsmouth/Portsmouth/Content/Maps/portsmouth_test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.04.02-02.11.40:303][387]LogSavePackage: Save=1556.66ms
+[2016.04.02-02.11.40:303][387]LogSavePackage: Moving 'U:/GitHub/Portsmouth/Portsmouth/Saved/portsmouth_testAFB3AECA44326FB7C1FAB0B03728E249.tmp' to 'U:/GitHub/Portsmouth/Portsmouth/Content/Maps/portsmouth_test.umap'
+[2016.04.02-02.11.40:308][387]LogSavePackage: Total save time: 1563.00ms
+[2016.04.02-02.11.40:308][387]LogSavePackage:Display: Finished SavePackage U:/GitHub/Portsmouth/Portsmouth/Content/Maps/portsmouth_test.umap
+[2016.04.02-02.11.58:964][980]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.02-02.12.03:043][343]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.02-02.12.06:236][644]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.02-02.12.08:173][851]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.02-02.12.13:268][342]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.02-02.12.16:765][649]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.02-02.12.18:506][843]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.02-02.12.21:794][152]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/portsmouth_test" FILE="U:/GitHub/Portsmouth/Portsmouth/Content/Maps/portsmouth_test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.04.02-02.12.23:279][152]LogSavePackage: Save=1460.10ms
+[2016.04.02-02.12.23:279][152]LogSavePackage: Moving 'U:/GitHub/Portsmouth/Portsmouth/Saved/portsmouth_testB5D186404C3B26E0723CD6A6409C626A.tmp' to 'U:/GitHub/Portsmouth/Portsmouth/Content/Maps/portsmouth_test.umap'
+[2016.04.02-02.12.23:286][152]LogSavePackage: Total save time: 1467.60ms
+[2016.04.02-02.12.23:286][152]LogSavePackage:Display: Finished SavePackage U:/GitHub/Portsmouth/Portsmouth/Content/Maps/portsmouth_test.umap
+[2016.04.02-02.12.23:303][152]LogFileHelpers: Saving map 'portsmouth_test' took 1.590
+[2016.04.02-02.18.13:283][492]Cmd: QUIT_EDITOR
+[2016.04.02-02.18.13:639][492]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.02-02.18.13:639][492]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.02-02.18.13:727][492]LogExit: Preparing to exit.
+[2016.04.02-02.18.14:922][492]LogExit: Editor shut down
+[2016.04.02-02.18.14:924][492]LogExit: Transaction tracking system shut down
+[2016.04.02-02.18.16:859][492]LogObj: Freed 0b from 0 cluster array pools.
+[2016.04.02-02.18.16:859][492]LogExit: Object subsystem successfully closed.
+[2016.04.02-02.18.17:141][492]LogD3D11RHI: Shutdown
+[2016.04.02-02.18.17:141][492]LogD3D11RHI: CleanupD3DDevice
+[2016.04.02-02.18.17:454][492]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.04.02-02.18.17:563][492]LogDerivedDataCache: Shutdown
+[2016.04.02-02.18.18:374][492]LogModuleManager: Shutting down and abandoning module MaterialEditor (207)
+[2016.04.02-02.18.18:374][492]LogModuleManager: Shutting down and abandoning module TextureEditor (206)
+[2016.04.02-02.18.18:374][492]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (205)
+[2016.04.02-02.18.18:374][492]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (204)
+[2016.04.02-02.18.18:382][492]LogModuleManager: Shutting down and abandoning module CrashTracker (203)
+[2016.04.02-02.18.18:382][492]LogModuleManager: Shutting down and abandoning module SceneOutliner (202)
+[2016.04.02-02.18.18:399][492]LogModuleManager: Shutting down and abandoning module SuperSearch (201)
+[2016.04.02-02.18.18:399][492]LogModuleManager: Shutting down and abandoning module WidgetCarousel (200)
+[2016.04.02-02.18.18:399][492]LogModuleManager: Shutting down and abandoning module AddContentDialog (199)
+[2016.04.02-02.18.18:443][492]LogModuleManager: Shutting down and abandoning module GameplayTags (198)
+[2016.04.02-02.18.18:443][492]LogModuleManager: Shutting down and abandoning module EditorWidgets (197)
+[2016.04.02-02.18.18:443][492]LogModuleManager: Shutting down and abandoning module CollectionManager (196)
+[2016.04.02-02.18.18:465][492]LogModuleManager: Shutting down and abandoning module StatsViewer (195)
+[2016.04.02-02.18.18:494][492]LogModuleManager: Shutting down and abandoning module FoliageEdit (194)
+[2016.04.02-02.18.18:494][492]LogModuleManager: Shutting down and abandoning module LandscapeEditor (193)
+[2016.04.02-02.18.18:507][492]LogModuleManager: Shutting down and abandoning module ActorPickerMode (192)
+[2016.04.02-02.18.18:507][492]LogModuleManager: Shutting down and abandoning module GeometryMode (191)
+[2016.04.02-02.18.18:507][492]LogModuleManager: Shutting down and abandoning module TextureAlignMode (190)
+[2016.04.02-02.18.18:507][492]LogModuleManager: Shutting down and abandoning module BspMode (189)
+[2016.04.02-02.18.18:507][492]LogModuleManager: Shutting down and abandoning module PlacementMode (188)
+[2016.04.02-02.18.18:507][492]LogModuleManager: Shutting down and abandoning module AutomationWorker (187)
+[2016.04.02-02.18.18:507][492]LogModuleManager: Shutting down and abandoning module CharacterAI (186)
+[2016.04.02-02.18.18:507][492]LogModuleManager: Shutting down and abandoning module SmartSnapping (185)
+[2016.04.02-02.18.18:507][492]LogModuleManager: Shutting down and abandoning module ViewportSnapping (184)
+[2016.04.02-02.18.18:507][492]LogModuleManager: Shutting down and abandoning module LogVisualizer (183)
+[2016.04.02-02.18.18:532][492]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (182)
+[2016.04.02-02.18.18:552][492]LogModuleManager: Shutting down and abandoning module IntroTutorials (181)
+[2016.04.02-02.18.18:561][492]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (180)
+[2016.04.02-02.18.18:561][492]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (179)
+[2016.04.02-02.18.18:577][492]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (178)
+[2016.04.02-02.18.18:577][492]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (177)
+[2016.04.02-02.18.18:779][492]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (176)
+[2016.04.02-02.18.18:779][492]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (175)
+[2016.04.02-02.18.18:779][492]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (174)
+[2016.04.02-02.18.18:779][492]LogModuleManager: Shutting down and abandoning module MergeActors (173)
+[2016.04.02-02.18.18:792][492]LogModuleManager: Shutting down and abandoning module SizeMap (172)
+[2016.04.02-02.18.18:806][492]LogModuleManager: Shutting down and abandoning module TreeMap (171)
+[2016.04.02-02.18.18:819][492]LogModuleManager: Shutting down and abandoning module ReferenceViewer (170)
+[2016.04.02-02.18.18:819][492]LogModuleManager: Shutting down and abandoning module LocalizationService (169)
+[2016.04.02-02.18.18:831][492]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (168)
+[2016.04.02-02.18.18:837][492]LogModuleManager: Shutting down and abandoning module HardwareTargeting (167)
+[2016.04.02-02.18.18:837][492]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (166)
+[2016.04.02-02.18.18:859][492]LogModuleManager: Shutting down and abandoning module UndoHistory (165)
+[2016.04.02-02.18.18:871][492]LogModuleManager: Shutting down and abandoning module UserFeedback (164)
+[2016.04.02-02.18.18:871][492]LogModuleManager: Shutting down and abandoning module XmlParser (163)
+[2016.04.02-02.18.18:886][492]LogModuleManager: Shutting down and abandoning module Blutility (162)
+[2016.04.02-02.18.18:896][492]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (161)
+[2016.04.02-02.18.18:897][492]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (160)
+[2016.04.02-02.18.18:897][492]LogModuleManager: Shutting down and abandoning module InputBindingEditor (159)
+[2016.04.02-02.18.18:935][492]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (158)
+[2016.04.02-02.18.18:935][492]LogModuleManager: Shutting down and abandoning module SettingsEditor (157)
+[2016.04.02-02.18.18:950][492]LogModuleManager: Shutting down and abandoning module ProjectLauncher (156)
+[2016.04.02-02.18.18:971][492]LogModuleManager: Shutting down and abandoning module SessionFrontend (155)
+[2016.04.02-02.18.18:988][492]LogModuleManager: Shutting down and abandoning module ProfilerClient (154)
+[2016.04.02-02.18.18:996][492]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (153)
+[2016.04.02-02.18.18:996][492]LogModuleManager: Shutting down and abandoning module DeviceManager (152)
+[2016.04.02-02.18.19:057][492]LogModuleManager: Shutting down and abandoning module AutomationController (151)
+[2016.04.02-02.18.19:078][492]LogModuleManager: Shutting down and abandoning module AutomationWindow (150)
+[2016.04.02-02.18.19:100][492]LogModuleManager: Shutting down and abandoning module Layers (149)
+[2016.04.02-02.18.19:124][492]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (148)
+[2016.04.02-02.18.19:124][492]LogModuleManager: Shutting down and abandoning module DetailCustomizations (147)
+[2016.04.02-02.18.19:131][492]LogModuleManager: Shutting down and abandoning module PackagesDialog (146)
+[2016.04.02-02.18.19:147][492]LogModuleManager: Shutting down and abandoning module Persona (145)
+[2016.04.02-02.18.19:203][492]LogModuleManager: Shutting down and abandoning module Kismet (144)
+[2016.04.02-02.18.19:217][492]LogModuleManager: Shutting down and abandoning module GraphEditor (143)
+[2016.04.02-02.18.19:217][492]LogModuleManager: Shutting down and abandoning module ClassViewer (142)
+[2016.04.02-02.18.19:235][492]LogModuleManager: Shutting down and abandoning module Toolbox (141)
+[2016.04.02-02.18.19:241][492]LogModuleManager: Shutting down and abandoning module ModuleUI (140)
+[2016.04.02-02.18.19:263][492]LogModuleManager: Shutting down and abandoning module MovieSceneTools (139)
+[2016.04.02-02.18.19:285][492]LogModuleManager: Shutting down and abandoning module OutputLog (138)
+[2016.04.02-02.18.19:297][492]LogModuleManager: Shutting down and abandoning module GammaUI (137)
+[2016.04.02-02.18.19:318][492]LogModuleManager: Shutting down and abandoning module Documentation (136)
+[2016.04.02-02.18.19:318][492]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (135)
+[2016.04.02-02.18.19:318][492]LogModuleManager: Shutting down and abandoning module AnalyticsET (134)
+[2016.04.02-02.18.19:318][492]LogModuleManager: Shutting down and abandoning module Analytics (133)
+[2016.04.02-02.18.19:318][492]LogModuleManager: Shutting down and abandoning module PortalServices (132)
+[2016.04.02-02.18.19:318][492]LogModuleManager: Shutting down and abandoning module PortalRpc (131)
+[2016.04.02-02.18.19:318][492]LogModuleManager: Shutting down and abandoning module MessagingRpc (130)
+[2016.04.02-02.18.19:318][492]LogModuleManager: Shutting down and abandoning module AITestSuite (129)
+[2016.04.02-02.18.19:334][492]LogModuleManager: Shutting down and abandoning module GameplayDebugger (128)
+[2016.04.02-02.18.19:334][492]LogModuleManager: Shutting down and abandoning module AIModule (127)
+[2016.04.02-02.18.19:334][492]LogModuleManager: Shutting down and abandoning module ProfilerService (126)
+[2016.04.02-02.18.19:485][492]LogModuleManager: Shutting down and abandoning module TaskGraph (125)
+[2016.04.02-02.18.19:499][492]LogModuleManager: Shutting down and abandoning module SlateRemote (124)
+[2016.04.02-02.18.19:499][492]LogModuleManager: Shutting down and abandoning module SteamVRController (123)
+[2016.04.02-02.18.19:499][492]LogModuleManager: Shutting down and abandoning module SteamVR (122)
+[2016.04.02-02.18.19:499][492]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (121)
+[2016.04.02-02.18.19:499][492]LogModuleManager: Shutting down and abandoning module OculusLibrary (120)
+[2016.04.02-02.18.19:499][492]LogModuleManager: Shutting down and abandoning module OculusInput (119)
+[2016.04.02-02.18.19:499][492]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (118)
+[2016.04.02-02.18.19:499][492]LogModuleManager: Shutting down and abandoning module CableComponent (117)
+[2016.04.02-02.18.19:499][492]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (116)
+[2016.04.02-02.18.19:499][492]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (115)
+[2016.04.02-02.18.19:523][492]LogModuleManager: Shutting down and abandoning module HTML5Networking (114)
+[2016.04.02-02.18.19:523][492]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (113)
+[2016.04.02-02.18.19:523][492]LogModuleManager: Shutting down and abandoning module PluginBrowser (112)
+[2016.04.02-02.18.19:540][492]LogModuleManager: Shutting down and abandoning module EpicSurvey (111)
+[2016.04.02-02.18.19:565][492]LogModuleManager: Shutting down and abandoning module DesktopPlatform (110)
+[2016.04.02-02.18.19:583][492]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (109)
+[2016.04.02-02.18.19:596][492]LogModuleManager: Shutting down and abandoning module UObjectPlugin (108)
+[2016.04.02-02.18.19:597][492]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (107)
+[2016.04.02-02.18.19:619][492]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (106)
+[2016.04.02-02.18.19:641][492]LogModuleManager: Shutting down and abandoning module SourceControl (105)
+[2016.04.02-02.18.19:654][492]LogModuleManager: Shutting down and abandoning module GitSourceControl (104)
+[2016.04.02-02.18.19:672][492]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (103)
+[2016.04.02-02.18.19:672][492]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (102)
+[2016.04.02-02.18.19:683][492]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (101)
+[2016.04.02-02.18.19:683][492]LogModuleManager: Shutting down and abandoning module MeshPaint (100)
+[2016.04.02-02.18.19:695][492]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.04.02-02.18.19:708][492]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.04.02-02.18.19:708][492]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.04.02-02.18.19:709][492]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (96)
+[2016.04.02-02.18.19:714][492]LogModuleManager: Shutting down and abandoning module AssetRegistry (95)
+[2016.04.02-02.18.19:860][492]LogModuleManager: Shutting down and abandoning module ContentBrowser (94)
+[2016.04.02-02.18.19:861][492]LogModuleManager: Shutting down and abandoning module Paper2DEditor (93)
+[2016.04.02-02.18.19:870][492]LogModuleManager: Shutting down and abandoning module Portsmouth (92)
+[2016.04.02-02.18.19:870][492]LogModuleManager: Shutting down and abandoning module UdpMessaging (91)
+[2016.04.02-02.18.19:971][492]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (90)
+[2016.04.02-02.18.19:971][492]LogModuleManager: Shutting down and abandoning module Paper2D (89)
+[2016.04.02-02.18.19:971][492]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (88)
+[2016.04.02-02.18.19:998][492]LogModuleManager: Shutting down and abandoning module Media (87)
+[2016.04.02-02.18.19:998][492]LogModuleManager: Shutting down and abandoning module WmfMedia (86)
+[2016.04.02-02.18.20:013][492]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
+[2016.04.02-02.18.20:013][492]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
+[2016.04.02-02.18.20:013][492]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
+[2016.04.02-02.18.20:013][492]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
+[2016.04.02-02.18.20:013][492]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
+[2016.04.02-02.18.20:013][492]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
+[2016.04.02-02.18.20:032][492]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
+[2016.04.02-02.18.20:032][492]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
+[2016.04.02-02.18.20:077][492]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.04.02-02.18.20:077][492]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.04.02-02.18.20:077][492]LogModuleManager: Shutting down and abandoning module Sequencer (75)
+[2016.04.02-02.18.20:090][492]LogModuleManager: Shutting down and abandoning module AssetTools (74)
+[2016.04.02-02.18.20:090][492]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
+[2016.04.02-02.18.20:115][492]LogModuleManager: Shutting down and abandoning module UMG (72)
+[2016.04.02-02.18.20:134][492]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
+[2016.04.02-02.18.20:167][492]LogModuleManager: Shutting down and abandoning module Slate (70)
+[2016.04.02-02.18.20:167][492]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
+[2016.04.02-02.18.20:171][492]LogModuleManager: Shutting down and abandoning module SessionServices (68)
+[2016.04.02-02.18.20:171][492]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
+[2016.04.02-02.18.20:171][492]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
+[2016.04.02-02.18.20:171][492]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
+[2016.04.02-02.18.20:171][492]LogModuleManager: Shutting down and abandoning module Networking (63)
+[2016.04.02-02.18.20:171][492]LogModuleManager: Shutting down and abandoning module Core (62)
+[2016.04.02-02.18.20:171][492]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.04.02-02.18.20:183][492]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.04.02-02.18.20:183][492]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.04.02-02.18.20:183][492]LogModuleManager: Shutting down and abandoning module CookingStats (58)
+[2016.04.02-02.18.20:188][492]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
+[2016.04.02-02.18.20:188][492]LogDerivedDataCache: Shutdown
+[2016.04.02-02.18.20:188][492]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.04.02-02.18.20:220][492]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.04.02-02.18.20:227][492]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.04.02-02.18.20:247][492]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.04.02-02.18.20:247][492]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.04.02-02.18.20:280][492]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.04.02-02.18.20:287][492]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.04.02-02.18.20:287][492]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.04.02-02.18.20:287][492]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.04.02-02.18.20:287][492]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.04.02-02.18.20:287][492]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.04.02-02.18.20:295][492]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.04.02-02.18.20:305][492]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.04.02-02.18.20:312][492]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.04.02-02.18.20:312][492]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.04.02-02.18.20:324][492]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.04.02-02.18.20:337][492]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.04.02-02.18.20:337][492]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.04.02-02.18.20:337][492]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.04.02-02.18.20:337][492]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.04.02-02.18.20:337][492]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.04.02-02.18.20:337][492]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.04.02-02.18.20:360][492]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.04.02-02.18.20:360][492]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.04.02-02.18.20:360][492]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.04.02-02.18.20:360][492]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.04.02-02.18.20:360][492]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.04.02-02.18.20:360][492]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.04.02-02.18.20:360][492]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.04.02-02.18.20:360][492]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.04.02-02.18.20:369][492]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.04.02-02.18.20:380][492]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.04.02-02.18.20:384][492]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.04.02-02.18.20:384][492]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.04.02-02.18.20:385][492]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.04.02-02.18.20:385][492]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.04.02-02.18.20:385][492]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.04.02-02.18.20:385][492]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.04.02-02.18.22:388][492]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.04.02-02.18.22:411][492]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.04.02-02.18.22:436][492]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.04.02-02.18.22:436][492]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.04.02-02.18.22:448][492]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.04.02-02.18.22:448][492]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.04.02-02.18.22:448][492]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.04.02-02.18.22:472][492]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.04.02-02.18.22:486][492]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.04.02-02.18.22:486][492]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.04.02-02.18.22:486][492]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.04.02-02.18.22:486][492]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.04.02-02.18.22:486][492]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.04.02-02.18.22:486][492]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.04.02-02.18.22:510][492]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.04.02-02.18.22:524][492]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.04.02-02.18.22:538][492]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.04.02-02.18.22:558][492]LogExit: Exiting.
+[2016.04.02-02.18.22:577][492]Log file closed, 04/01/16 19:18:22
