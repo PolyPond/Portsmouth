@@ -168,4 +168,421 @@ LogInit: Object subsystem initialized
 [2016.04.02-05.23.27:278][672]LogLinker:Warning: Can't find file for asset '/Game/Water/lambert1' while loading U:/GitHub/Portsmouth/Portsmouth/Content/Water/SM_Bridge_001.uasset.
 [2016.04.02-05.23.27:278][672]LoadErrors:Error: Error /Game/Water/SM_Bridge_001 : Can't find file for asset. /Game/Water/lambert1
 [2016.04.02-05.23.27:278][672]LogLinker:Warning: Can't find file '/Game/Water/lambert1'
-[2016.04.02-05.23.27:278][672]LogLinker:Warning: Can't find file for asset '/Game/Water/lambert1' wh
+[2016.04.02-05.23.27:278][672]LogLinker:Warning: Can't find file for asset '/Game/Water/lambert1' while loading U:/GitHub/Portsmouth/Portsmouth/Content/Water/SM_Bridge_001.uasset.
+[2016.04.02-05.23.27:413][672]LogLinker:Warning: Can't find file '/Game/Water/lambert1'
+[2016.04.02-05.23.27:413][672]LoadErrors: Info Failed to load /Game/Water/lambert1.lambert1 Referenced by SM_Bridge_001
+[2016.04.02-05.23.27:413][672]LogLinker:Warning: Can't find file for asset '/Game/Water/lambert1' while loading NULL.
+[2016.04.02-05.23.27:564][672]LogAIModule: Creating AISystem for world portsmouth_test
+[2016.04.02-05.23.27:789][672]Cmd: MAP LOAD FILE="U:/GitHub/Portsmouth/Portsmouth/Content/Maps/portsmouth_test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.02-05.23.27:789][672]LightingResults: New page: Lighting Build
+[2016.04.02-05.23.27:803][672]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0015 seconds. Added 5 classes and 0 folders.
+[2016.04.02-05.23.27:823][672]LoadErrors: New page: Loading map: portsmouth_test.umap
+[2016.04.02-05.23.27:823][672]MapCheck: New page: Map Check
+[2016.04.02-05.23.27:823][672]LightingResults: New page: Lighting Build
+[2016.04.02-05.23.28:052][672]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.02-05.23.28:093][672]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.02-05.23.28:146][672]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 53.464ms to complete.
+[2016.04.02-05.23.28:146][672]LogFileHelpers: Loading map 'portsmouth_test' took 0.359
+[2016.04.02-05.23.28:184][673]Cmd: UpdateLandscapeEditorData -warnings
+[2016.04.02-05.23.28:197][673]Cmd: UpdateLandscapeEditorData
+[2016.04.02-05.23.52:260][187]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/portsmouth_test" FILE="U:/GitHub/Portsmouth/Portsmouth/Content/Maps/portsmouth_test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.04.02-05.23.54:129][187]LogSavePackage: Save=1809.40ms
+[2016.04.02-05.23.54:129][187]LogSavePackage: Moving 'U:/GitHub/Portsmouth/Portsmouth/Saved/portsmouth_testD480EB314BBFF1A95DA8668C7455CC1D.tmp' to 'U:/GitHub/Portsmouth/Portsmouth/Content/Maps/portsmouth_test.umap'
+[2016.04.02-05.23.54:135][187]LogSavePackage: Total save time: 1850.34ms
+[2016.04.02-05.23.54:135][187]LogSavePackage:Display: Finished SavePackage U:/GitHub/Portsmouth/Portsmouth/Content/Maps/portsmouth_test.umap
+[2016.04.02-05.27.48:475][748]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.04.02-05.27.51:954][ 73]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.04.02-05.31.02:940][243]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 U:/Leif/Downloads/Prototyping_Kit_SE/Prototyping Kit SE/GenericGasStation/SM_GenericGasStation_01.fbx)
+[2016.04.02-05.31.03:206][243]LogFbx: ItemName: Model, ItemCount : 43
+[2016.04.02-05.31.03:206][243]LogFbx: ItemName: Material, ItemCount : 4
+[2016.04.02-05.31.03:206][243]LogFbx: ItemName: Texture, ItemCount : 1
+[2016.04.02-05.31.03:206][243]LogFbx: ItemName: Video, ItemCount : 1
+[2016.04.02-05.31.03:206][243]LogFbx: ItemName: SceneInfo, ItemCount : 1
+[2016.04.02-05.31.03:206][243]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.04.02-05.31.03:206][243]LogFbx: ItemName: CollectionExclusive, ItemCount : 3
+[2016.04.02-05.31.03:262][243]LogFbx: Loading FBX Scene from U:/Leif/Downloads/Prototyping_Kit_SE/Prototyping Kit SE/GenericGasStation/SM_GenericGasStation_01.fbx
+[2016.04.02-05.31.03:326][243]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.02-05.31.07:185][243]LogFbx: Loading FBX Scene from U:/Leif/Downloads/Prototyping_Kit_SE/Prototyping Kit SE/GenericGasStation/SM_GenericGasStation_01.fbx
+[2016.04.02-05.31.07:222][243]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.02-05.31.07:274][243]LogLinker:Warning: Can't find file '/Game/Prototyping/Gas_Station/lambert7'
+[2016.04.02-05.31.07:274][243]LogLinker:Warning: Can't find file '/Game/Prototyping/Gas_Station/lambert7'
+[2016.04.02-05.31.07:291][243]LogMaterial: Missing cached shader map for material lambert7, compiling. 
+[2016.04.02-05.31.07:335][243]LogLinker:Warning: Can't find file '/Game/Prototyping/Gas_Station/lambert6'
+[2016.04.02-05.31.07:335][243]LogLinker:Warning: Can't find file '/Game/Prototyping/Gas_Station/lambert6'
+[2016.04.02-05.31.07:358][243]LogMaterial: Missing cached shader map for material lambert6, compiling. 
+[2016.04.02-05.31.07:407][243]LogLinker:Warning: Can't find file '/Game/Prototyping/Gas_Station/lambert1'
+[2016.04.02-05.31.07:407][243]LogLinker:Warning: Can't find file '/Game/Prototyping/Gas_Station/lambert1'
+[2016.04.02-05.31.07:413][243]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2016.04.02-05.31.07:429][243]LogLinker:Warning: Can't find file '/Game/Prototyping/Gas_Station/lambert5'
+[2016.04.02-05.31.07:429][243]LogLinker:Warning: Can't find file '/Game/Prototyping/Gas_Station/lambert5'
+[2016.04.02-05.31.07:431][243]LogLinker:Warning: Can't find file '/Game/Prototyping/Gas_Station/T_Glass_01_albedo'
+[2016.04.02-05.31.07:432][243]LogLinker:Warning: Can't find file '/Game/Prototyping/Gas_Station/T_Glass_01_albedo'
+[2016.04.02-05.31.07:432][243]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Prototyping/Gas_Station/T_Glass_01_albedo.T_Glass_01_albedo'
+[2016.04.02-05.31.07:432][243]LogStreaming:Warning: Failed to read file 'C:/Users/aaron.kaminer/Desktop/T_Glass_01_albedo.tga' error.
+[2016.04.02-05.31.07:432][243]LogStreaming:Warning: Failed to read file 'U:/Leif/Downloads/Prototyping_Kit_SE/Prototyping Kit SE/GenericGasStation/C:\Users\aaron.kaminer\Desktop\T_Glass_01_albedo.tga' error.
+[2016.04.02-05.31.07:432][243]LogStreaming:Warning: Failed to read file 'U:/Leif/Downloads/Prototyping_Kit_SE/Prototyping Kit SE/GenericGasStation/T_Glass_01_albedo.tga' error.
+[2016.04.02-05.31.07:432][243]LogFbxMaterialImport:Warning: Unable to find TEXTure file T_Glass_01_albedo.tga. Tried:
+ - C:/Users/aaron.kaminer/Desktop/T_Glass_01_albedo.tga
+ - U:/Leif/Downloads/Prototyping_Kit_SE/Prototyping Kit SE/GenericGasStation/C:\Users\aaron.kaminer\Desktop\T_Glass_01_albedo.tga
+ - U:/Leif/Downloads/Prototyping_Kit_SE/Prototyping Kit SE/GenericGasStation/T_Glass_01_albedo.tga
+[2016.04.02-05.31.07:465][243]LogMaterial: Missing cached shader map for material lambert5, compiling. 
+[2016.04.02-05.31.07:484][243]LogFbx:Warning: Triangulating static mesh polySurface19
+[2016.04.02-05.31.08:331][243]LogStaticMesh: Building static mesh SM_GenericGasStation_01...
+[2016.04.02-05.31.08:416][243]LogStaticMesh: Built static mesh [0.09s] /Game/Prototyping/Gas_Station/SM_GenericGasStation_01.SM_GenericGasStation_01
+[2016.04.02-05.31.08:517][243]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.04.02-05.31.13:243][585]LogTexture:Display: Building textures: SimplygonLogo (AutoDXT)
+[2016.04.02-05.31.13:504][585]LogRenderer: Reallocating scene render targets to support 1208x636 (Frame:17148).
+[2016.04.02-05.31.46:373][393]LogActorFactory: Actor Factory created SM_GenericGasStation_01
+[2016.04.02-05.31.47:109][446]LogActorFactory: Actor Factory created SM_GenericGasStation_01
+[2016.04.02-05.32.00:907][792]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.04.02-05.32.04:862][159]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_GenericGasStation_01)
+[2016.04.02-05.32.20:424][733]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_GenericGasStation_01)
+[2016.04.02-05.32.21:036][795]Cmd: DELETE
+[2016.04.02-05.32.21:036][795]Cmd: ACTOR DELETE
+[2016.04.02-05.32.21:059][795]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.04.02-05.32.21:092][795]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2016.04.02-05.33.53:029][154]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/portsmouth_test" FILE="U:/GitHub/Portsmouth/Portsmouth/Saved/Autosaves/Game/Maps/portsmouth_test_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.04.02-05.33.54:864][154]LogSavePackage: Save=1789.92ms
+[2016.04.02-05.33.54:864][154]LogSavePackage: Moving 'U:/GitHub/Portsmouth/Portsmouth/Saved/portsmouth_test_Auto193CED3014407EC78F986E2B196D5B992.tmp' to 'U:/GitHub/Portsmouth/Portsmouth/Saved/Autosaves/Game/Maps/portsmouth_test_Auto1.umap'
+[2016.04.02-05.33.54:866][154]LogSavePackage: Total save time: 1835.67ms
+[2016.04.02-05.33.54:866][154]LogSavePackage:Display: Finished SavePackage U:/GitHub/Portsmouth/Portsmouth/Saved/Autosaves/Game/Maps/portsmouth_test_Auto1.umap
+[2016.04.02-05.33.54:871][154]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/portsmouth_test' took 1.870
+[2016.04.02-05.33.54:871][154]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.870
+[2016.04.02-05.33.54:878][154]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Prototyping/Gas_Station/SM_GenericGasStation_01] ([1] browsable assets)...
+[2016.04.02-05.33.54:908][154]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Prototyping/Gas_Station/SM_GenericGasStation_01.SM_GenericGasStation_01]
+[2016.04.02-05.33.54:908][154]OBJ SavePackage: Finished generating thumbnails for package [/Game/Prototyping/Gas_Station/SM_GenericGasStation_01]
+[2016.04.02-05.33.54:931][154]LogSavePackage: Save=19.74ms
+[2016.04.02-05.33.54:931][154]LogSavePackage: Moving 'U:/GitHub/Portsmouth/Portsmouth/Saved/SM_GenericGasStation_01_Auto115F2B6934BA2C81759C26D8DF22A423C.tmp' to 'U:/GitHub/Portsmouth/Portsmouth/Saved/Autosaves/Game/Prototyping/Gas_Station/SM_GenericGasStation_01_Auto1.uasset'
+[2016.04.02-05.33.54:933][154]LogSavePackage: Total save time: 21.70ms
+[2016.04.02-05.33.54:933][154]LogSavePackage:Display: Finished SavePackage U:/GitHub/Portsmouth/Portsmouth/Saved/Autosaves/Game/Prototyping/Gas_Station/SM_GenericGasStation_01_Auto1.uasset
+[2016.04.02-05.33.54:933][154]LogFileHelpers: Auto-saving content packages took 0.059
+[2016.04.02-05.40.11:613][334]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Water/Water_base" FILE="U:/GitHub/Portsmouth/Portsmouth/Content/Water/Water_base.uasset" SILENT=true
+[2016.04.02-05.40.11:639][334]LogSavePackage: Save=18.87ms
+[2016.04.02-05.40.11:639][334]LogSavePackage: Moving 'U:/GitHub/Portsmouth/Portsmouth/Saved/Water_baseDCEBD3F84095130FB63F78BC06723A58.tmp' to 'U:/GitHub/Portsmouth/Portsmouth/Content/Water/Water_base.uasset'
+[2016.04.02-05.40.11:642][334]LogSavePackage: Total save time: 26.98ms
+[2016.04.02-05.40.11:642][334]LogSavePackage:Display: Finished SavePackage U:/GitHub/Portsmouth/Portsmouth/Content/Water/Water_base.uasset
+[2016.04.02-05.41.06:271][576]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Water/Water_base" FILE="U:/GitHub/Portsmouth/Portsmouth/Content/Water/Water_base.uasset" SILENT=true
+[2016.04.02-05.41.06:293][576]LogSavePackage: Save=18.16ms
+[2016.04.02-05.41.06:293][576]LogSavePackage: Moving 'U:/GitHub/Portsmouth/Portsmouth/Saved/Water_baseE7AFC7E348F09755853C0FBCE60E9528.tmp' to 'U:/GitHub/Portsmouth/Portsmouth/Content/Water/Water_base.uasset'
+[2016.04.02-05.41.06:295][576]LogSavePackage: Total save time: 21.45ms
+[2016.04.02-05.41.06:295][576]LogSavePackage:Display: Finished SavePackage U:/GitHub/Portsmouth/Portsmouth/Content/Water/Water_base.uasset
+[2016.04.02-05.41.52:463][837]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/portsmouth_test" FILE="U:/GitHub/Portsmouth/Portsmouth/Content/Maps/portsmouth_test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.04.02-05.41.54:114][837]LogSavePackage: Save=1583.94ms
+[2016.04.02-05.41.54:114][837]LogSavePackage: Moving 'U:/GitHub/Portsmouth/Portsmouth/Saved/portsmouth_testAFD5ECD94322AE499D4C6FA685351DA7.tmp' to 'U:/GitHub/Portsmouth/Portsmouth/Content/Maps/portsmouth_test.umap'
+[2016.04.02-05.41.54:126][837]LogSavePackage: Total save time: 1639.21ms
+[2016.04.02-05.41.54:126][837]LogSavePackage:Display: Finished SavePackage U:/GitHub/Portsmouth/Portsmouth/Content/Maps/portsmouth_test.umap
+[2016.04.02-05.41.54:161][837]LogFileHelpers: Saving map 'portsmouth_test' took 1.761
+[2016.04.02-05.41.54:196][837]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Prototyping/Gas_Station/SM_GenericGasStation_01" FILE="U:/GitHub/Portsmouth/Portsmouth/Content/Prototyping/Gas_Station/SM_GenericGasStation_01.uasset" SILENT=true
+[2016.04.02-05.41.54:214][837]LogSavePackage: Save=16.23ms
+[2016.04.02-05.41.54:214][837]LogSavePackage: Moving 'U:/GitHub/Portsmouth/Portsmouth/Saved/SM_GenericGasStation_01199455A942C2F8E77F3C50922FF31610.tmp' to 'U:/GitHub/Portsmouth/Portsmouth/Content/Prototyping/Gas_Station/SM_GenericGasStation_01.uasset'
+[2016.04.02-05.41.54:217][837]LogSavePackage: Total save time: 18.95ms
+[2016.04.02-05.41.54:217][837]LogSavePackage:Display: Finished SavePackage U:/GitHub/Portsmouth/Portsmouth/Content/Prototyping/Gas_Station/SM_GenericGasStation_01.uasset
+[2016.04.02-05.42.08:822][164]LogMaterial: Missing cached shader map for material water, compiling. 
+[2016.04.02-05.42.08:965][164]LogMaterial: Missing cached shader map for material water, compiling. 
+[2016.04.02-05.42.08:979][164]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.02-05.42.09:007][164]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2016.04.02-05.42.09:012][164]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_1, compiling. 
+[2016.04.02-05.42.09:014][164]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_7, compiling. 
+[2016.04.02-05.42.09:015][164]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2016.04.02-05.42.09:020][164]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_16, compiling. 
+[2016.04.02-05.42.09:024][164]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_17, compiling. 
+[2016.04.02-05.42.09:028][164]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_18, compiling. 
+[2016.04.02-05.42.09:033][164]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_19, compiling. 
+[2016.04.02-05.42.09:038][164]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_2, compiling. 
+[2016.04.02-05.42.33:531][760]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 292 instructions
+[2016.04.02-05.42.33:531][760]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 328 instructions
+[2016.04.02-05.42.33:531][760]MaterialEditorStats: Info Vertex shader: 67 instructions
+[2016.04.02-05.42.33:531][760]MaterialEditorStats: Info Texture samplers: 12/16
+[2016.04.02-05.43.08:519][431]LogMaterial: Missing cached shader map for material water, compiling. 
+[2016.04.02-05.43.08:531][431]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.02-05.43.14:830][889]LogMaterial: Missing cached shader map for material water, compiling. 
+[2016.04.02-05.43.14:844][889]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.02-05.43.16:703][ 15]LogMaterial: Missing cached shader map for material water, compiling. 
+[2016.04.02-05.43.16:717][ 15]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.02-05.43.25:080][610]LogMaterial: Missing cached shader map for material water, compiling. 
+[2016.04.02-05.43.25:095][610]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.02-05.43.26:902][733]LogMaterialEditor: Saving and Compiling material water
+[2016.04.02-05.43.28:038][733]LogMaterial: Missing cached shader map for material water, compiling. 
+[2016.04.02-05.43.28:076][733]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.02-05.43.28:124][733]LogMaterial: Missing cached shader map for material water, compiling. 
+[2016.04.02-05.43.28:159][733]LogMaterial: Missing cached shader map for material water, compiling. 
+[2016.04.02-05.43.28:183][733]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-05.43.58:417][733]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Water/water" FILE="U:/GitHub/Portsmouth/Portsmouth/Content/Water/water.uasset" SILENT=true
+[2016.04.02-05.43.58:461][733]LogSavePackage: Save=35.96ms
+[2016.04.02-05.43.58:461][733]LogSavePackage: Moving 'U:/GitHub/Portsmouth/Portsmouth/Saved/waterDDA96354408AD055F5D9E6B32070F08B.tmp' to 'U:/GitHub/Portsmouth/Portsmouth/Content/Water/water.uasset'
+[2016.04.02-05.43.58:464][733]LogSavePackage: Total save time: 44.86ms
+[2016.04.02-05.43.58:464][733]LogSavePackage:Display: Finished SavePackage U:/GitHub/Portsmouth/Portsmouth/Content/Water/water.uasset
+[2016.04.02-05.43.58:475][733]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 328 instructions
+[2016.04.02-05.43.58:475][733]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 364 instructions
+[2016.04.02-05.43.58:475][733]MaterialEditorStats: Info Vertex shader: 67 instructions
+[2016.04.02-05.43.58:475][733]MaterialEditorStats: Info Texture samplers: 12/16
+[2016.04.02-05.44.45:550][296]LogMaterial: Missing cached shader map for material water, compiling. 
+[2016.04.02-05.44.45:561][296]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.02-05.44.50:916][648]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.04.02-05.44.50:982][648]LogMaterial: Uniform references updated for custom material expression TemporalAA SampleID.
+[2016.04.02-05.44.51:090][648]LogMaterial: Uniform references updated for custom material expression Ambient Cubemap Intensity.
+[2016.04.02-05.44.51:092][648]LogMaterial: Uniform references updated for custom material expression Ambient Cubemap Tint.
+[2016.04.02-05.44.55:434][956]LogMaterial: Missing cached shader map for material water, compiling. 
+[2016.04.02-05.44.55:451][956]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.02-05.44.55:455][956]LogMaterial: Missing cached shader map for material water, compiling. 
+[2016.04.02-05.44.55:470][956]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.02-05.45.02:198][433]LogMaterial: Missing cached shader map for material water, compiling. 
+[2016.04.02-05.45.02:215][433]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.02-05.45.02:217][433]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2016.04.02-05.45.02:225][433]LogMaterial: Missing cached shader map for material water, compiling. 
+[2016.04.02-05.45.02:239][433]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.02-05.45.02:264][433]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2016.04.02-05.45.12:844][102]LogMaterial: Missing cached shader map for material water, compiling. 
+[2016.04.02-05.45.12:861][102]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.02-05.45.12:888][102]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2016.04.02-05.45.17:503][419]LogMaterial: Missing cached shader map for material water, compiling. 
+[2016.04.02-05.45.17:517][419]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.02-05.45.19:582][557]LogMaterial: Missing cached shader map for material water, compiling. 
+[2016.04.02-05.45.19:598][557]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.02-05.45.21:495][687]LogMaterial: Missing cached shader map for material water, compiling. 
+[2016.04.02-05.45.21:508][687]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.02-05.45.23:029][792]LogMaterial: Missing cached shader map for material water, compiling. 
+[2016.04.02-05.45.23:044][792]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.02-05.45.24:037][854]LogMaterialEditor: Saving and Compiling material water
+[2016.04.02-05.45.25:156][854]LogMaterial: Missing cached shader map for material water, compiling. 
+[2016.04.02-05.45.25:198][854]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.02-05.45.25:246][854]LogMaterial: Missing cached shader map for material water, compiling. 
+[2016.04.02-05.45.25:279][854]LogMaterial: Missing cached shader map for material water, compiling. 
+[2016.04.02-05.45.25:304][854]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.02-05.45.45:354][854]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Water/water" FILE="U:/GitHub/Portsmouth/Portsmouth/Content/Water/water.uasset" SILENT=true
+[2016.04.02-05.45.45:391][854]LogSavePackage: Save=34.77ms
+[2016.04.02-05.45.45:391][854]LogSavePackage: Moving 'U:/GitHub/Portsmouth/Portsmouth/Saved/water01E6E64046D6A0CC19B6508671A07F46.tmp' to 'U:/GitHub/Portsmouth/Portsmouth/Content/Water/water.uasset'
+[2016.04.02-05.45.45:394][854]LogSavePackage: Total save time: 38.75ms
+[2016.04.02-05.45.45:394][854]LogSavePackage:Display: Finished SavePackage U:/GitHub/Portsmouth/Portsmouth/Content/Water/water.uasset
+[2016.04.02-05.45.45:403][854]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 320 instructions
+[2016.04.02-05.45.45:403][854]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 356 instructions
+[2016.04.02-05.45.45:404][854]MaterialEditorStats: Info Vertex shader: 67 instructions
+[2016.04.02-05.45.45:404][854]MaterialEditorStats: Info Texture samplers: 12/16
+[2016.04.02-05.47.00:688][345]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/portsmouth_test" FILE="U:/GitHub/Portsmouth/Portsmouth/Content/Maps/portsmouth_test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.04.02-05.47.02:959][345]LogSavePackage: Save=2214.08ms
+[2016.04.02-05.47.02:959][345]LogSavePackage: Moving 'U:/GitHub/Portsmouth/Portsmouth/Saved/portsmouth_test92D8F56741C8438CDDA3038D287E78C7.tmp' to 'U:/GitHub/Portsmouth/Portsmouth/Content/Maps/portsmouth_test.umap'
+[2016.04.02-05.47.02:965][345]LogSavePackage: Total save time: 2261.06ms
+[2016.04.02-05.47.02:965][345]LogSavePackage:Display: Finished SavePackage U:/GitHub/Portsmouth/Portsmouth/Content/Maps/portsmouth_test.umap
+[2016.04.02-05.47.05:505][614]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.02-05.47.05:505][614]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.02-05.47.05:787][615]Cmd: QUIT_EDITOR
+[2016.04.02-05.47.06:083][615]LogExit: Preparing to exit.
+[2016.04.02-05.47.07:066][615]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2016.04.02-05.47.07:066][615]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2016.04.02-05.47.07:067][615]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2016.04.02-05.47.07:260][615]LogExit: Editor shut down
+[2016.04.02-05.47.07:261][615]LogExit: Transaction tracking system shut down
+[2016.04.02-05.47.07:710][615]LogObj: Freed 0b from 0 cluster array pools.
+[2016.04.02-05.47.07:712][615]LogExit: Object subsystem successfully closed.
+[2016.04.02-05.47.07:791][615]LogD3D11RHI: Shutdown
+[2016.04.02-05.47.07:791][615]LogD3D11RHI: CleanupD3DDevice
+[2016.04.02-05.47.08:226][615]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.04.02-05.47.08:348][615]LogDerivedDataCache: Shutdown
+[2016.04.02-05.47.08:349][615]LogModuleManager: Shutting down and abandoning module MaterialEditor (207)
+[2016.04.02-05.47.08:349][615]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (206)
+[2016.04.02-05.47.08:349][615]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (205)
+[2016.04.02-05.47.08:349][615]LogModuleManager: Shutting down and abandoning module StatsViewer (204)
+[2016.04.02-05.47.08:349][615]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (203)
+[2016.04.02-05.47.08:349][615]LogModuleManager: Shutting down and abandoning module CrashTracker (202)
+[2016.04.02-05.47.08:349][615]LogModuleManager: Shutting down and abandoning module SceneOutliner (201)
+[2016.04.02-05.47.08:349][615]LogModuleManager: Shutting down and abandoning module SuperSearch (200)
+[2016.04.02-05.47.08:349][615]LogModuleManager: Shutting down and abandoning module WidgetCarousel (199)
+[2016.04.02-05.47.08:349][615]LogModuleManager: Shutting down and abandoning module AddContentDialog (198)
+[2016.04.02-05.47.08:367][615]LogModuleManager: Shutting down and abandoning module GameplayTags (197)
+[2016.04.02-05.47.08:367][615]LogModuleManager: Shutting down and abandoning module EditorWidgets (196)
+[2016.04.02-05.47.08:367][615]LogModuleManager: Shutting down and abandoning module CollectionManager (195)
+[2016.04.02-05.47.08:367][615]LogModuleManager: Shutting down and abandoning module FoliageEdit (194)
+[2016.04.02-05.47.08:367][615]LogModuleManager: Shutting down and abandoning module LandscapeEditor (193)
+[2016.04.02-05.47.08:367][615]LogModuleManager: Shutting down and abandoning module ActorPickerMode (192)
+[2016.04.02-05.47.08:367][615]LogModuleManager: Shutting down and abandoning module GeometryMode (191)
+[2016.04.02-05.47.08:367][615]LogModuleManager: Shutting down and abandoning module TextureAlignMode (190)
+[2016.04.02-05.47.08:367][615]LogModuleManager: Shutting down and abandoning module BspMode (189)
+[2016.04.02-05.47.08:367][615]LogModuleManager: Shutting down and abandoning module PlacementMode (188)
+[2016.04.02-05.47.08:367][615]LogModuleManager: Shutting down and abandoning module AutomationWorker (187)
+[2016.04.02-05.47.08:367][615]LogModuleManager: Shutting down and abandoning module CharacterAI (186)
+[2016.04.02-05.47.08:367][615]LogModuleManager: Shutting down and abandoning module SmartSnapping (185)
+[2016.04.02-05.47.08:367][615]LogModuleManager: Shutting down and abandoning module ViewportSnapping (184)
+[2016.04.02-05.47.08:368][615]LogModuleManager: Shutting down and abandoning module LogVisualizer (183)
+[2016.04.02-05.47.08:368][615]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (182)
+[2016.04.02-05.47.08:368][615]LogModuleManager: Shutting down and abandoning module IntroTutorials (181)
+[2016.04.02-05.47.08:368][615]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (180)
+[2016.04.02-05.47.08:368][615]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (179)
+[2016.04.02-05.47.08:368][615]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (178)
+[2016.04.02-05.47.08:368][615]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (177)
+[2016.04.02-05.47.08:787][615]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (176)
+[2016.04.02-05.47.08:787][615]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (175)
+[2016.04.02-05.47.08:787][615]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (174)
+[2016.04.02-05.47.08:787][615]LogModuleManager: Shutting down and abandoning module MergeActors (173)
+[2016.04.02-05.47.08:787][615]LogModuleManager: Shutting down and abandoning module SizeMap (172)
+[2016.04.02-05.47.08:787][615]LogModuleManager: Shutting down and abandoning module TreeMap (171)
+[2016.04.02-05.47.08:788][615]LogModuleManager: Shutting down and abandoning module ReferenceViewer (170)
+[2016.04.02-05.47.08:788][615]LogModuleManager: Shutting down and abandoning module LocalizationService (169)
+[2016.04.02-05.47.08:788][615]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (168)
+[2016.04.02-05.47.08:791][615]LogModuleManager: Shutting down and abandoning module HardwareTargeting (167)
+[2016.04.02-05.47.08:793][615]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (166)
+[2016.04.02-05.47.08:794][615]LogModuleManager: Shutting down and abandoning module UndoHistory (165)
+[2016.04.02-05.47.08:794][615]LogModuleManager: Shutting down and abandoning module UserFeedback (164)
+[2016.04.02-05.47.08:794][615]LogModuleManager: Shutting down and abandoning module XmlParser (163)
+[2016.04.02-05.47.08:794][615]LogModuleManager: Shutting down and abandoning module Blutility (162)
+[2016.04.02-05.47.08:794][615]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (161)
+[2016.04.02-05.47.08:799][615]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (160)
+[2016.04.02-05.47.08:800][615]LogModuleManager: Shutting down and abandoning module InputBindingEditor (159)
+[2016.04.02-05.47.08:801][615]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (158)
+[2016.04.02-05.47.08:802][615]LogModuleManager: Shutting down and abandoning module SettingsEditor (157)
+[2016.04.02-05.47.08:802][615]LogModuleManager: Shutting down and abandoning module ProjectLauncher (156)
+[2016.04.02-05.47.08:802][615]LogModuleManager: Shutting down and abandoning module SessionFrontend (155)
+[2016.04.02-05.47.08:803][615]LogModuleManager: Shutting down and abandoning module ProfilerClient (154)
+[2016.04.02-05.47.08:803][615]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (153)
+[2016.04.02-05.47.08:804][615]LogModuleManager: Shutting down and abandoning module DeviceManager (152)
+[2016.04.02-05.47.08:847][615]LogModuleManager: Shutting down and abandoning module AutomationController (151)
+[2016.04.02-05.47.08:847][615]LogModuleManager: Shutting down and abandoning module AutomationWindow (150)
+[2016.04.02-05.47.08:847][615]LogModuleManager: Shutting down and abandoning module Layers (149)
+[2016.04.02-05.47.08:847][615]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (148)
+[2016.04.02-05.47.08:847][615]LogModuleManager: Shutting down and abandoning module DetailCustomizations (147)
+[2016.04.02-05.47.08:847][615]LogModuleManager: Shutting down and abandoning module PackagesDialog (146)
+[2016.04.02-05.47.08:847][615]LogModuleManager: Shutting down and abandoning module Persona (145)
+[2016.04.02-05.47.08:847][615]LogModuleManager: Shutting down and abandoning module Kismet (144)
+[2016.04.02-05.47.08:847][615]LogModuleManager: Shutting down and abandoning module GraphEditor (143)
+[2016.04.02-05.47.08:847][615]LogModuleManager: Shutting down and abandoning module ClassViewer (142)
+[2016.04.02-05.47.08:847][615]LogModuleManager: Shutting down and abandoning module Toolbox (141)
+[2016.04.02-05.47.08:847][615]LogModuleManager: Shutting down and abandoning module ModuleUI (140)
+[2016.04.02-05.47.08:847][615]LogModuleManager: Shutting down and abandoning module MovieSceneTools (139)
+[2016.04.02-05.47.08:847][615]LogModuleManager: Shutting down and abandoning module OutputLog (138)
+[2016.04.02-05.47.08:847][615]LogModuleManager: Shutting down and abandoning module GammaUI (137)
+[2016.04.02-05.47.08:848][615]LogModuleManager: Shutting down and abandoning module Documentation (136)
+[2016.04.02-05.47.08:848][615]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (135)
+[2016.04.02-05.47.08:848][615]LogModuleManager: Shutting down and abandoning module AnalyticsET (134)
+[2016.04.02-05.47.08:848][615]LogModuleManager: Shutting down and abandoning module Analytics (133)
+[2016.04.02-05.47.08:848][615]LogModuleManager: Shutting down and abandoning module PortalServices (132)
+[2016.04.02-05.47.08:848][615]LogModuleManager: Shutting down and abandoning module PortalRpc (131)
+[2016.04.02-05.47.08:848][615]LogModuleManager: Shutting down and abandoning module MessagingRpc (130)
+[2016.04.02-05.47.08:848][615]LogModuleManager: Shutting down and abandoning module AITestSuite (129)
+[2016.04.02-05.47.08:848][615]LogModuleManager: Shutting down and abandoning module GameplayDebugger (128)
+[2016.04.02-05.47.08:848][615]LogModuleManager: Shutting down and abandoning module AIModule (127)
+[2016.04.02-05.47.08:848][615]LogModuleManager: Shutting down and abandoning module ProfilerService (126)
+[2016.04.02-05.47.08:960][615]LogModuleManager: Shutting down and abandoning module TaskGraph (125)
+[2016.04.02-05.47.08:960][615]LogModuleManager: Shutting down and abandoning module SlateRemote (124)
+[2016.04.02-05.47.08:960][615]LogModuleManager: Shutting down and abandoning module SteamVRController (123)
+[2016.04.02-05.47.08:960][615]LogModuleManager: Shutting down and abandoning module SteamVR (122)
+[2016.04.02-05.47.08:960][615]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (121)
+[2016.04.02-05.47.08:960][615]LogModuleManager: Shutting down and abandoning module OculusLibrary (120)
+[2016.04.02-05.47.08:960][615]LogModuleManager: Shutting down and abandoning module OculusInput (119)
+[2016.04.02-05.47.08:960][615]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (118)
+[2016.04.02-05.47.08:960][615]LogModuleManager: Shutting down and abandoning module CableComponent (117)
+[2016.04.02-05.47.08:960][615]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (116)
+[2016.04.02-05.47.08:960][615]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (115)
+[2016.04.02-05.47.08:960][615]LogModuleManager: Shutting down and abandoning module HTML5Networking (114)
+[2016.04.02-05.47.08:960][615]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (113)
+[2016.04.02-05.47.08:961][615]LogModuleManager: Shutting down and abandoning module PluginBrowser (112)
+[2016.04.02-05.47.08:961][615]LogModuleManager: Shutting down and abandoning module EpicSurvey (111)
+[2016.04.02-05.47.08:961][615]LogModuleManager: Shutting down and abandoning module DesktopPlatform (110)
+[2016.04.02-05.47.08:961][615]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (109)
+[2016.04.02-05.47.08:961][615]LogModuleManager: Shutting down and abandoning module UObjectPlugin (108)
+[2016.04.02-05.47.08:961][615]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (107)
+[2016.04.02-05.47.08:961][615]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (106)
+[2016.04.02-05.47.08:961][615]LogModuleManager: Shutting down and abandoning module SourceControl (105)
+[2016.04.02-05.47.08:961][615]LogModuleManager: Shutting down and abandoning module GitSourceControl (104)
+[2016.04.02-05.47.08:961][615]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (103)
+[2016.04.02-05.47.08:961][615]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (102)
+[2016.04.02-05.47.08:961][615]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (101)
+[2016.04.02-05.47.08:961][615]LogModuleManager: Shutting down and abandoning module MeshPaint (100)
+[2016.04.02-05.47.08:961][615]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.04.02-05.47.08:962][615]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.04.02-05.47.08:962][615]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.04.02-05.47.08:963][615]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (96)
+[2016.04.02-05.47.08:967][615]LogModuleManager: Shutting down and abandoning module AssetRegistry (95)
+[2016.04.02-05.47.09:326][615]LogModuleManager: Shutting down and abandoning module ContentBrowser (94)
+[2016.04.02-05.47.09:328][615]LogModuleManager: Shutting down and abandoning module Paper2DEditor (93)
+[2016.04.02-05.47.09:328][615]LogModuleManager: Shutting down and abandoning module Portsmouth (92)
+[2016.04.02-05.47.09:328][615]LogModuleManager: Shutting down and abandoning module UdpMessaging (91)
+[2016.04.02-05.47.09:429][615]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (90)
+[2016.04.02-05.47.09:429][615]LogModuleManager: Shutting down and abandoning module Paper2D (89)
+[2016.04.02-05.47.09:429][615]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (88)
+[2016.04.02-05.47.09:429][615]LogModuleManager: Shutting down and abandoning module Media (87)
+[2016.04.02-05.47.09:429][615]LogModuleManager: Shutting down and abandoning module WmfMedia (86)
+[2016.04.02-05.47.09:429][615]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
+[2016.04.02-05.47.09:429][615]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
+[2016.04.02-05.47.09:429][615]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
+[2016.04.02-05.47.09:429][615]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
+[2016.04.02-05.47.09:429][615]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
+[2016.04.02-05.47.09:429][615]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
+[2016.04.02-05.47.09:429][615]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
+[2016.04.02-05.47.09:429][615]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
+[2016.04.02-05.47.09:429][615]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.04.02-05.47.09:430][615]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.04.02-05.47.09:430][615]LogModuleManager: Shutting down and abandoning module Sequencer (75)
+[2016.04.02-05.47.09:430][615]LogModuleManager: Shutting down and abandoning module AssetTools (74)
+[2016.04.02-05.47.09:430][615]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
+[2016.04.02-05.47.09:430][615]LogModuleManager: Shutting down and abandoning module UMG (72)
+[2016.04.02-05.47.09:430][615]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
+[2016.04.02-05.47.09:430][615]LogModuleManager: Shutting down and abandoning module Slate (70)
+[2016.04.02-05.47.09:430][615]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
+[2016.04.02-05.47.09:434][615]LogModuleManager: Shutting down and abandoning module SessionServices (68)
+[2016.04.02-05.47.09:434][615]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
+[2016.04.02-05.47.09:434][615]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
+[2016.04.02-05.47.09:434][615]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
+[2016.04.02-05.47.09:434][615]LogModuleManager: Shutting down and abandoning module Networking (63)
+[2016.04.02-05.47.09:434][615]LogModuleManager: Shutting down and abandoning module Core (62)
+[2016.04.02-05.47.09:434][615]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.04.02-05.47.09:434][615]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.04.02-05.47.09:434][615]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.04.02-05.47.09:434][615]LogModuleManager: Shutting down and abandoning module CookingStats (58)
+[2016.04.02-05.47.09:437][615]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
+[2016.04.02-05.47.09:437][615]LogDerivedDataCache: Shutdown
+[2016.04.02-05.47.09:437][615]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.04.02-05.47.09:437][615]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.04.02-05.47.09:437][615]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.04.02-05.47.09:437][615]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.04.02-05.47.09:437][615]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.04.02-05.47.09:437][615]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.04.02-05.47.09:437][615]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.04.02-05.47.09:437][615]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.04.02-05.47.09:437][615]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.04.02-05.47.09:437][615]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.04.02-05.47.09:437][615]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.04.02-05.47.09:437][615]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.04.02-05.47.09:437][615]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.04.02-05.47.09:437][615]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.04.02-05.47.09:437][615]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.04.02-05.47.09:437][615]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.04.02-05.47.09:437][615]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.04.02-05.47.09:437][615]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.04.02-05.47.09:438][615]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.04.02-05.47.09:438][615]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.04.02-05.47.09:438][615]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.04.02-05.47.09:438][615]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.04.02-05.47.09:438][615]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.04.02-05.47.09:438][615]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.04.02-05.47.09:438][615]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.04.02-05.47.09:438][615]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.04.02-05.47.09:438][615]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.04.02-05.47.09:438][615]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.04.02-05.47.09:438][615]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.04.02-05.47.09:438][615]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.04.02-05.47.09:438][615]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.04.02-05.47.09:438][615]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.04.02-05.47.09:438][615]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.04.02-05.47.09:438][615]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.04.02-05.47.09:438][615]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.04.02-05.47.09:438][615]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.04.02-05.47.09:438][615]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.04.02-05.47.09:438][615]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.04.02-05.47.11:443][615]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.04.02-05.47.11:443][615]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.04.02-05.47.11:443][615]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.04.02-05.47.11:443][615]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.04.02-05.47.11:443][615]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.04.02-05.47.11:443][615]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.04.02-05.47.11:444][615]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.04.02-05.47.11:448][615]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.04.02-05.47.11:448][615]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.04.02-05.47.11:448][615]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.04.02-05.47.11:448][615]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.04.02-05.47.11:448][615]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.04.02-05.47.11:448][615]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.04.02-05.47.11:448][615]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.04.02-05.47.11:448][615]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.04.02-05.47.11:448][615]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.04.02-05.47.11:448][615]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.04.02-05.47.11:451][615]LogExit: Exiting.
+[2016.04.02-05.47.11:473][615]Log file closed, 04/01/16 22:47:11
