@@ -6,6 +6,9 @@
 #include "Animation/AnimInstance.h"
 #include "GameFramework/InputSettings.h"
 
+#include "Runtime/Engine/Classes/Kismet/KismetSystemLibrary.h"
+#include "InteractInterface.h"
+
 DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
 
 //////////////////////////////////////////////////////////////////////////
@@ -19,6 +22,10 @@ APortsmouthCharacter::APortsmouthCharacter()
 	// set our turn rates for input
 	BaseTurnRate = 45.f;
 	BaseLookUpRate = 45.f;
+
+	// set trace distances
+	LookDistance = 1000.0f;
+	InteractDistance = 400.0f;
 
 	// Create a CameraComponent	
 	FirstPersonCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("FirstPersonCamera"));
@@ -72,6 +79,9 @@ void APortsmouthCharacter::SetupPlayerInputComponent(class UInputComponent* Inpu
 	InputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	InputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 
+	// Interact Input
+	InputComponent->BindAction("Interact", IE_Pressed, this, &APortsmouthCharacter::Interact);
+
 	//InputComponent->BindTouch(EInputEvent::IE_Pressed, this, &APortsmouthCharacter::TouchStarted);
 	if (EnableTouchscreenMovement(InputComponent) == false)
 	{
@@ -89,6 +99,12 @@ void APortsmouthCharacter::SetupPlayerInputComponent(class UInputComponent* Inpu
 	InputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
 	InputComponent->BindAxis("LookUpRate", this, &APortsmouthCharacter::LookUpAtRate);
 }
+
+/**
+void APortsmouthCharacter::Interact_Implementation() const
+{
+}
+*/
 
 void APortsmouthCharacter::OnFire()
 {
@@ -124,6 +140,27 @@ void APortsmouthCharacter::OnFire()
 		}
 	}
 
+}
+
+void APortsmouthCharacter::Interact()
+{
+	APlayerController* PController = GetWorld()->GetFirstPlayerController();
+	FHitResult InteractHit;
+	FString Debug = "Interact Event Pressed";
+	UKismetSystemLibrary::PrintString(GetWorld(), Debug, true, false, FLinearColor((1.0f), (0.0f), (0.0f), (1.0f)), (3.0f));
+	// Line Trace to see what Object the Player is looking at
+	APortsmouthCharacter::TraceForward(PController, InteractHit, InteractDistance);
+	if (InteractHit.Actor != NULL) 
+	{
+		const AActor* InActor = InteractHit.GetActor();
+		FString DebugActor = (InActor != NULL) ? InActor->GetName() : FString(TEXT("None"));
+		UKismetSystemLibrary::PrintString(GetWorld(), DebugActor, true, false, FLinearColor((1.0f), (1.0f), (0.0f), (1.0f)), (3.0f));
+		if (InActor->GetActorClass()->ImplementsInterface(UInteractInterface::StaticClass())) 
+		{
+			FString DebugTest = "Actor Implements Interact Interface";
+			UKismetSystemLibrary::PrintString(GetWorld(), DebugTest, true, false, FLinearColor((1.0f), (0.0f), (0.0f), (1.0f)), (3.0f));
+		}
+	}
 }
 
 void APortsmouthCharacter::BeginTouch(const ETouchIndex::Type FingerIndex, const FVector Location)
@@ -214,6 +251,41 @@ void APortsmouthCharacter::LookUpAtRate(float Rate)
 {
 	// calculate delta for this frame from the rate information
 	AddControllerPitchInput(Rate * BaseLookUpRate * GetWorld()->GetDeltaSeconds());
+}
+
+#define COLLISION_LOOK			ECC_GameTraceChannel1
+void APortsmouthCharacter::TraceForward(APlayerController* InController, FHitResult& OutTraceResult, float TraceDistance)
+{
+	// Calculate Look Direction
+	FVector CameraLocation;
+	FRotator CameraRotation;
+	InController->GetPlayerViewPoint(CameraLocation, CameraRotation);
+	const FVector TraceDirection = CameraRotation.Vector();
+
+	// Calculate the start location for trace
+	FVector StartTrace = FVector::ZeroVector;
+	if (InController)
+	{
+		FRotator UnusedRotation;
+		InController->GetPlayerViewPoint(StartTrace, UnusedRotation);
+
+		// Adjust trace so there is nothing blocking the ray between camera and pawn, and calculate distance from adjusted start
+		StartTrace = StartTrace + TraceDirection * ((GetActorLocation() - StartTrace) | TraceDirection);
+	}
+
+	// Distance to Trace
+	const float Range = TraceDistance;
+	// calculate endpoint of trace
+	const FVector EndTrace = StartTrace + TraceDirection * Range;
+
+	// Setup trace query
+	static FName FireTraceIdent = FName(TEXT("LookTrace"));
+	FCollisionQueryParams TraceParams(FireTraceIdent, true, this);
+	TraceParams.bTraceAsyncScene = true;
+	TraceParams.bTraceComplex = true;
+	
+	// Perform the trace
+	GetWorld()->LineTraceSingleByChannel(OutTraceResult, StartTrace, EndTrace, COLLISION_LOOK, TraceParams);
 }
 
 bool APortsmouthCharacter::EnableTouchscreenMovement(class UInputComponent* InputComponent)

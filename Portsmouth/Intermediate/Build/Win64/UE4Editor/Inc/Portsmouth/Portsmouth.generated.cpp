@@ -9,23 +9,47 @@
 #include "Portsmouth.generated.dep.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodePortsmouth() {}
+	void IInteractInterface::Interact() const
+	{
+		check(0 && "Do not directly call Event functions in Interfaces. Call Execute_Interact instead.");
+	}
+	void UInteractInterface::StaticRegisterNativesUInteractInterface()
+	{
+		FNativeFunctionRegistrar::RegisterFunction(UInteractInterface::StaticClass(), "Interact",(Native)&IInteractInterface::execInteract);
+	}
+	IMPLEMENT_CLASS(UInteractInterface, 2480331369);
+	void IInteractInterface::Execute_Interact(const UObject* O)
+	{
+		check(O != NULL);
+		check(O->GetClass()->ImplementsInterface(UInteractInterface::StaticClass()));
+		UFunction* const Func = O->FindFunction(PORTSMOUTH_Interact);
+		if (Func)
+		{
+			const_cast<UObject*>(O)->ProcessEvent(Func, NULL);
+		}
+		else if (auto I = (const IInteractInterface*)(O->GetNativeInterfaceAddress(UInteractInterface::StaticClass())))
+		{
+			I->Interact_Implementation();
+		}
+	}
 	void APortsmouthCharacter::StaticRegisterNativesAPortsmouthCharacter()
 	{
 	}
-	IMPLEMENT_CLASS(APortsmouthCharacter, 212629875);
+	IMPLEMENT_CLASS(APortsmouthCharacter, 3875608852);
 	void APortsmouthGameMode::StaticRegisterNativesAPortsmouthGameMode()
 	{
 	}
-	IMPLEMENT_CLASS(APortsmouthGameMode, 3893026221);
+	IMPLEMENT_CLASS(APortsmouthGameMode, 2833932644);
 	void APortsmouthHUD::StaticRegisterNativesAPortsmouthHUD()
 	{
 	}
-	IMPLEMENT_CLASS(APortsmouthHUD, 585930729);
+	IMPLEMENT_CLASS(APortsmouthHUD, 1211929951);
 	void APortsmouthProjectile::StaticRegisterNativesAPortsmouthProjectile()
 	{
 		FNativeFunctionRegistrar::RegisterFunction(APortsmouthProjectile::StaticClass(), "OnHit",(Native)&APortsmouthProjectile::execOnHit);
 	}
-	IMPLEMENT_CLASS(APortsmouthProjectile, 1802231243);
+	IMPLEMENT_CLASS(APortsmouthProjectile, 2175359361);
+FName PORTSMOUTH_Interact = FName(TEXT("Interact"));
 #if USE_COMPILED_IN_NATIVES
 // Cross Module References
 	ENGINE_API class UClass* Z_Construct_UClass_ACharacter();
@@ -44,6 +68,9 @@ void EmptyLinkFunctionForGeneratedCodePortsmouth() {}
 	ENGINE_API class UClass* Z_Construct_UClass_UProjectileMovementComponent_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_USphereComponent_NoRegister();
 
+	PORTSMOUTH_API class UFunction* Z_Construct_UFunction_UInteractInterface_Interact();
+	PORTSMOUTH_API class UClass* Z_Construct_UClass_UInteractInterface_NoRegister();
+	PORTSMOUTH_API class UClass* Z_Construct_UClass_UInteractInterface();
 	PORTSMOUTH_API class UClass* Z_Construct_UClass_APortsmouthCharacter_NoRegister();
 	PORTSMOUTH_API class UClass* Z_Construct_UClass_APortsmouthCharacter();
 	PORTSMOUTH_API class UClass* Z_Construct_UClass_APortsmouthGameMode_NoRegister();
@@ -54,6 +81,57 @@ void EmptyLinkFunctionForGeneratedCodePortsmouth() {}
 	PORTSMOUTH_API class UClass* Z_Construct_UClass_APortsmouthProjectile_NoRegister();
 	PORTSMOUTH_API class UClass* Z_Construct_UClass_APortsmouthProjectile();
 	PORTSMOUTH_API class UPackage* Z_Construct_UPackage__Script_Portsmouth();
+	UFunction* Z_Construct_UFunction_UInteractInterface_Interact()
+	{
+		UObject* Outer=Z_Construct_UClass_UInteractInterface();
+		static UFunction* ReturnFunction = NULL;
+		if (!ReturnFunction)
+		{
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("Interact"), RF_Public|RF_Transient|RF_MarkAsNative) UFunction(FObjectInitializer(), NULL, 0x4C020C00, 65535);
+			ReturnFunction->Bind();
+			ReturnFunction->StaticLink();
+#if WITH_METADATA
+			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
+			MetaData->SetValue(ReturnFunction, TEXT("Category"), TEXT("Interact"));
+			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("InteractInterface.h"));
+#endif
+		}
+		return ReturnFunction;
+	}
+	UClass* Z_Construct_UClass_UInteractInterface_NoRegister()
+	{
+		return UInteractInterface::StaticClass();
+	}
+	UClass* Z_Construct_UClass_UInteractInterface()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			UInterface::StaticClass();
+			Z_Construct_UPackage__Script_Portsmouth();
+			OuterClass = UInteractInterface::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20004081;
+
+				OuterClass->LinkChild(Z_Construct_UFunction_UInteractInterface_Interact());
+
+				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_UInteractInterface_Interact(), "Interact"); // 1968686920
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("BlueprintType"), TEXT("true"));
+				MetaData->SetValue(OuterClass, TEXT("IsBlueprintBase"), TEXT("true"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("InteractInterface.h"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_UInteractInterface(Z_Construct_UClass_UInteractInterface, &UInteractInterface::StaticClass, TEXT("UInteractInterface"), false, nullptr, nullptr);
+	DEFINE_VTABLE_PTR_HELPER_CTOR(UInteractInterface);
 	UClass* Z_Construct_UClass_APortsmouthCharacter_NoRegister()
 	{
 		return APortsmouthCharacter::StaticClass();
@@ -76,6 +154,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 				UProperty* NewProp_FireAnimation = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("FireAnimation"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(FireAnimation, APortsmouthCharacter), 0x0010000000000005, Z_Construct_UClass_UAnimMontage_NoRegister());
 				UProperty* NewProp_FireSound = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("FireSound"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(FireSound, APortsmouthCharacter), 0x0010000000000005, Z_Construct_UClass_USoundBase_NoRegister());
 				UProperty* NewProp_ProjectileClass = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("ProjectileClass"), RF_Public|RF_Transient|RF_MarkAsNative) UClassProperty(CPP_PROPERTY_BASE(ProjectileClass, APortsmouthCharacter), 0x0014000000010001, Z_Construct_UClass_APortsmouthProjectile_NoRegister(), UClass::StaticClass());
+				UProperty* NewProp_InteractDistance = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("InteractDistance"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(InteractDistance, APortsmouthCharacter), 0x0010000000000005);
+				UProperty* NewProp_LookDistance = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("LookDistance"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(LookDistance, APortsmouthCharacter), 0x0010000000000005);
 				UProperty* NewProp_GunOffset = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("GunOffset"), RF_Public|RF_Transient|RF_MarkAsNative) UStructProperty(CPP_PROPERTY_BASE(GunOffset, APortsmouthCharacter), 0x0010000000000005, Z_Construct_UScriptStruct_FVector());
 				UProperty* NewProp_BaseLookUpRate = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("BaseLookUpRate"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(BaseLookUpRate, APortsmouthCharacter), 0x0010000000020015);
 				UProperty* NewProp_BaseTurnRate = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("BaseTurnRate"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(BaseTurnRate, APortsmouthCharacter), 0x0010000000020015);
@@ -101,6 +181,10 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				MetaData->SetValue(NewProp_ProjectileClass, TEXT("Category"), TEXT("Projectile"));
 				MetaData->SetValue(NewProp_ProjectileClass, TEXT("ModuleRelativePath"), TEXT("PortsmouthCharacter.h"));
 				MetaData->SetValue(NewProp_ProjectileClass, TEXT("ToolTip"), TEXT("Projectile class to spawn"));
+				MetaData->SetValue(NewProp_InteractDistance, TEXT("Category"), TEXT("Gameplay"));
+				MetaData->SetValue(NewProp_InteractDistance, TEXT("ModuleRelativePath"), TEXT("PortsmouthCharacter.h"));
+				MetaData->SetValue(NewProp_LookDistance, TEXT("Category"), TEXT("Gameplay"));
+				MetaData->SetValue(NewProp_LookDistance, TEXT("ModuleRelativePath"), TEXT("PortsmouthCharacter.h"));
 				MetaData->SetValue(NewProp_GunOffset, TEXT("Category"), TEXT("Gameplay"));
 				MetaData->SetValue(NewProp_GunOffset, TEXT("ModuleRelativePath"), TEXT("PortsmouthCharacter.h"));
 				MetaData->SetValue(NewProp_GunOffset, TEXT("ToolTip"), TEXT("Gun muzzle's offset from the characters location"));
@@ -290,8 +374,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/Portsmouth")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0xB48CFF44;
-			Guid.B = 0xE6FF41FF;
+			Guid.A = 0xE614F03E;
+			Guid.B = 0x0DAB0F18;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);

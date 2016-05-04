@@ -1,12 +1,15 @@
 // Copyright 1998-2016 Epic Games, Inc. All Rights Reserved.
 #pragma once
 #include "GameFramework/Character.h"
+
+/**#include "InteractInterface.h"*/
+
 #include "PortsmouthCharacter.generated.h"
 
 class UInputComponent;
 
 UCLASS(config=Game)
-class APortsmouthCharacter : public ACharacter
+class APortsmouthCharacter : public ACharacter/**, public IInteractInterface*/
 {
 	GENERATED_BODY()
 
@@ -42,6 +45,12 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=Gameplay)
 	FVector GunOffset;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+	float LookDistance;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+	float InteractDistance;
+
 	/** Projectile class to spawn */
 	UPROPERTY(EditDefaultsOnly, Category=Projectile)
 	TSubclassOf<class APortsmouthProjectile> ProjectileClass;
@@ -54,10 +63,16 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
 	class UAnimMontage* FireAnimation;
 
+	/** Interact Implementation */
+	/**void Interact_Implementation() const;*/
+
 protected:
 	
 	/** Fires a projectile. */
 	void OnFire();
+
+	/** Interacts with the World */
+	void Interact();
 
 	/** Handles moving forward/backward */
 	void MoveForward(float Val);
@@ -76,6 +91,8 @@ protected:
 	 * @param Rate	This is a normalized rate, i.e. 1.0 means 100% of desired turn rate
 	 */
 	void LookUpAtRate(float Rate);
+
+	void TraceForward(APlayerController* InController, FHitResult& OutTraceResult, float TraceDistance);
 
 	struct TouchData
 	{
