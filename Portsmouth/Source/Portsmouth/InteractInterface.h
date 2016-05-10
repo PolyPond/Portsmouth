@@ -16,7 +16,6 @@ class IInteractInterface
 {	GENERATED_IINTERFACE_BODY()
 
 public:
-
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Interact")
-	void Interact() const;
+	bool Interact();
 };

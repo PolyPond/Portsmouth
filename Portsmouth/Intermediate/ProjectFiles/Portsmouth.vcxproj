@@ -415,8 +415,10 @@
     <None Include="..\..\Config\DefaultGame.ini" />
     <None Include="..\..\Config\DefaultInput.ini" />
     <None Include="..\..\Source\Portsmouth\Portsmouth.Build.cs" />
+    <ClCompile Include="..\..\Source\Portsmouth\Interactable_Base.cpp" />
     <ClCompile Include="..\..\Source\Portsmouth\InteractInterface.cpp" />
     <ClCompile Include="..\..\Source\Portsmouth\Portsmouth.cpp" />
+    <ClInclude Include="..\..\Source\Portsmouth\Interactable_Base.h" />
     <ClInclude Include="..\..\Source\Portsmouth\InteractInterface.h" />
     <ClInclude Include="..\..\Source\Portsmouth\Portsmouth.h" />
     <ClCompile Include="..\..\Source\Portsmouth\PortsmouthCharacter.cpp" />

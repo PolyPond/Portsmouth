@@ -70,9 +70,15 @@
     <ClInclude Include="..\..\Source\Portsmouth\InteractInterface.h">
       <Filter>Source\Portsmouth</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\Portsmouth\Interactable_Base.h">
+      <Filter>Source\Portsmouth</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\Portsmouth\InteractInterface.cpp">
+      <Filter>Source\Portsmouth</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Portsmouth\Interactable_Base.cpp">
       <Filter>Source\Portsmouth</Filter>
     </ClCompile>
   </ItemGroup>

@@ -80,7 +80,7 @@ void APortsmouthCharacter::SetupPlayerInputComponent(class UInputComponent* Inpu
 	InputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 
 	// Interact Input
-	InputComponent->BindAction("Interact", IE_Pressed, this, &APortsmouthCharacter::Interact);
+	InputComponent->BindAction("Interact_Input", IE_Pressed, this, &APortsmouthCharacter::Interact);
 
 	//InputComponent->BindTouch(EInputEvent::IE_Pressed, this, &APortsmouthCharacter::TouchStarted);
 	if (EnableTouchscreenMovement(InputComponent) == false)
@@ -100,11 +100,6 @@ void APortsmouthCharacter::SetupPlayerInputComponent(class UInputComponent* Inpu
 	InputComponent->BindAxis("LookUpRate", this, &APortsmouthCharacter::LookUpAtRate);
 }
 
-/**
-void APortsmouthCharacter::Interact_Implementation() const
-{
-}
-*/
 
 void APortsmouthCharacter::OnFire()
 {
@@ -152,13 +147,14 @@ void APortsmouthCharacter::Interact()
 	APortsmouthCharacter::TraceForward(PController, InteractHit, InteractDistance);
 	if (InteractHit.Actor != NULL) 
 	{
-		const AActor* InActor = InteractHit.GetActor();
+		AActor* InActor = InteractHit.GetActor();
 		FString DebugActor = (InActor != NULL) ? InActor->GetName() : FString(TEXT("None"));
 		UKismetSystemLibrary::PrintString(GetWorld(), DebugActor, true, false, FLinearColor((1.0f), (1.0f), (0.0f), (1.0f)), (3.0f));
-		if (InActor->GetActorClass()->ImplementsInterface(UInteractInterface::StaticClass())) 
+		if (InActor->GetClass()->ImplementsInterface(UInteractInterface::StaticClass())) 
 		{
 			FString DebugTest = "Actor Implements Interact Interface";
 			UKismetSystemLibrary::PrintString(GetWorld(), DebugTest, true, false, FLinearColor((1.0f), (0.0f), (0.0f), (1.0f)), (3.0f));
+			IInteractInterface::Execute_Interact(InActor);
 		}
 	}
 }

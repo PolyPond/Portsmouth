@@ -9,29 +9,37 @@
 #include "Portsmouth.generated.dep.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodePortsmouth() {}
-	void IInteractInterface::Interact() const
+	bool IInteractInterface::Interact()
 	{
 		check(0 && "Do not directly call Event functions in Interfaces. Call Execute_Interact instead.");
+		InteractInterface_eventInteract_Parms Parms;
+		return Parms.ReturnValue;
 	}
 	void UInteractInterface::StaticRegisterNativesUInteractInterface()
 	{
 		FNativeFunctionRegistrar::RegisterFunction(UInteractInterface::StaticClass(), "Interact",(Native)&IInteractInterface::execInteract);
 	}
-	IMPLEMENT_CLASS(UInteractInterface, 2480331369);
-	void IInteractInterface::Execute_Interact(const UObject* O)
+	IMPLEMENT_CLASS(UInteractInterface, 2558545232);
+	bool IInteractInterface::Execute_Interact(UObject* O)
 	{
 		check(O != NULL);
 		check(O->GetClass()->ImplementsInterface(UInteractInterface::StaticClass()));
+		InteractInterface_eventInteract_Parms Parms;
 		UFunction* const Func = O->FindFunction(PORTSMOUTH_Interact);
 		if (Func)
 		{
-			const_cast<UObject*>(O)->ProcessEvent(Func, NULL);
+			O->ProcessEvent(Func, &Parms);
 		}
-		else if (auto I = (const IInteractInterface*)(O->GetNativeInterfaceAddress(UInteractInterface::StaticClass())))
+		else if (auto I = (IInteractInterface*)(O->GetNativeInterfaceAddress(UInteractInterface::StaticClass())))
 		{
-			I->Interact_Implementation();
+			Parms.ReturnValue = I->Interact_Implementation();
 		}
+		return Parms.ReturnValue;
 	}
+	void AInteractable_Base::StaticRegisterNativesAInteractable_Base()
+	{
+	}
+	IMPLEMENT_CLASS(AInteractable_Base, 806899561);
 	void APortsmouthCharacter::StaticRegisterNativesAPortsmouthCharacter()
 	{
 	}
@@ -52,6 +60,7 @@ void EmptyLinkFunctionForGeneratedCodePortsmouth() {}
 FName PORTSMOUTH_Interact = FName(TEXT("Interact"));
 #if USE_COMPILED_IN_NATIVES
 // Cross Module References
+	ENGINE_API class UClass* Z_Construct_UClass_AActor();
 	ENGINE_API class UClass* Z_Construct_UClass_ACharacter();
 	ENGINE_API class UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_USoundBase_NoRegister();
@@ -64,13 +73,14 @@ FName PORTSMOUTH_Interact = FName(TEXT("Interact"));
 	ENGINE_API class UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	ENGINE_API class UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_AActor_NoRegister();
-	ENGINE_API class UClass* Z_Construct_UClass_AActor();
 	ENGINE_API class UClass* Z_Construct_UClass_UProjectileMovementComponent_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_USphereComponent_NoRegister();
 
 	PORTSMOUTH_API class UFunction* Z_Construct_UFunction_UInteractInterface_Interact();
 	PORTSMOUTH_API class UClass* Z_Construct_UClass_UInteractInterface_NoRegister();
 	PORTSMOUTH_API class UClass* Z_Construct_UClass_UInteractInterface();
+	PORTSMOUTH_API class UClass* Z_Construct_UClass_AInteractable_Base_NoRegister();
+	PORTSMOUTH_API class UClass* Z_Construct_UClass_AInteractable_Base();
 	PORTSMOUTH_API class UClass* Z_Construct_UClass_APortsmouthCharacter_NoRegister();
 	PORTSMOUTH_API class UClass* Z_Construct_UClass_APortsmouthCharacter();
 	PORTSMOUTH_API class UClass* Z_Construct_UClass_APortsmouthGameMode_NoRegister();
@@ -87,7 +97,9 @@ FName PORTSMOUTH_Interact = FName(TEXT("Interact"));
 		static UFunction* ReturnFunction = NULL;
 		if (!ReturnFunction)
 		{
-			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("Interact"), RF_Public|RF_Transient|RF_MarkAsNative) UFunction(FObjectInitializer(), NULL, 0x4C020C00, 65535);
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("Interact"), RF_Public|RF_Transient|RF_MarkAsNative) UFunction(FObjectInitializer(), NULL, 0x0C020C00, 65535, sizeof(InteractInterface_eventInteract_Parms));
+			CPP_BOOL_PROPERTY_BITMASK_STRUCT(ReturnValue, InteractInterface_eventInteract_Parms, bool);
+			UProperty* NewProp_ReturnValue = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("ReturnValue"), RF_Public|RF_Transient|RF_MarkAsNative) UBoolProperty(FObjectInitializer(), EC_CppProperty, CPP_BOOL_PROPERTY_OFFSET(ReturnValue, InteractInterface_eventInteract_Parms), 0x0010000000000580, CPP_BOOL_PROPERTY_BITMASK(ReturnValue, InteractInterface_eventInteract_Parms), sizeof(bool), true);
 			ReturnFunction->Bind();
 			ReturnFunction->StaticLink();
 #if WITH_METADATA
@@ -117,7 +129,7 @@ FName PORTSMOUTH_Interact = FName(TEXT("Interact"));
 
 				OuterClass->LinkChild(Z_Construct_UFunction_UInteractInterface_Interact());
 
-				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_UInteractInterface_Interact(), "Interact"); // 1968686920
+				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_UInteractInterface_Interact(), "Interact"); // 1613206961
 				OuterClass->StaticLink();
 #if WITH_METADATA
 				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
@@ -132,6 +144,39 @@ FName PORTSMOUTH_Interact = FName(TEXT("Interact"));
 	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UInteractInterface(Z_Construct_UClass_UInteractInterface, &UInteractInterface::StaticClass, TEXT("UInteractInterface"), false, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UInteractInterface);
+	UClass* Z_Construct_UClass_AInteractable_Base_NoRegister()
+	{
+		return AInteractable_Base::StaticClass();
+	}
+	UClass* Z_Construct_UClass_AInteractable_Base()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_AActor();
+			Z_Construct_UPackage__Script_Portsmouth();
+			OuterClass = AInteractable_Base::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20900080;
+
+
+				OuterClass->Interfaces.Add(FImplementedInterface(Z_Construct_UClass_UInteractInterface_NoRegister(), VTABLE_OFFSET(AInteractable_Base, IInteractInterface), false ));
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("Interactable_Base.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("Interactable_Base.h"));
+				MetaData->SetValue(OuterClass, TEXT("OnlyDefaultConstructorDeclared"), TEXT(""));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_AInteractable_Base(Z_Construct_UClass_AInteractable_Base, &AInteractable_Base::StaticClass, TEXT("AInteractable_Base"), false, nullptr, nullptr);
+	DEFINE_VTABLE_PTR_HELPER_CTOR(AInteractable_Base);
 	UClass* Z_Construct_UClass_APortsmouthCharacter_NoRegister()
 	{
 		return APortsmouthCharacter::StaticClass();
@@ -374,8 +419,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/Portsmouth")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0xE614F03E;
-			Guid.B = 0x0DAB0F18;
+			Guid.A = 0x23455061;
+			Guid.B = 0x1380F8DF;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);

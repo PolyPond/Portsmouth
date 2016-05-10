@@ -9,7 +9,7 @@
 class UInputComponent;
 
 UCLASS(config=Game)
-class APortsmouthCharacter : public ACharacter/**, public IInteractInterface*/
+class APortsmouthCharacter : public ACharacter
 {
 	GENERATED_BODY()
 

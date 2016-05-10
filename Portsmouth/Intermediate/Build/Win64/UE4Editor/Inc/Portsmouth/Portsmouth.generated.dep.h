@@ -8,6 +8,9 @@
 #ifndef PORTSMOUTH_InteractInterface_generated_h
 	#include "InteractInterface.h"
 #endif
+#ifndef PORTSMOUTH_Interactable_Base_generated_h
+	#include "Interactable_Base.h"
+#endif
 #ifndef PORTSMOUTH_PortsmouthCharacter_generated_h
 	#include "PortsmouthCharacter.h"
 #endif
